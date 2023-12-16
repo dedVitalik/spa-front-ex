@@ -17,11 +17,4178 @@
 /*}*/
 
 body {
-  /*color: rgb(var(--foreground-rgb));*/
-  /*background: linear-gradient(*/
-  /*    to bottom,*/
-  /*    transparent,*/
-  /*    rgb(var(--background-end-rgb))*/
-  /*  )*/
-  /*  rgb(var(--background-start-rgb));*/
+    /*color: rgb(var(--foreground-rgb));*/
+    /*background: linear-gradient(*/
+    /*    to bottom,*/
+    /*    transparent,*/
+    /*    rgb(var(--background-end-rgb))*/
+    /*  )*/
+    /*  rgb(var(--background-start-rgb));*/
+}
+
+img.wp-smiley,
+img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+
+body {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: Lato, sans-serif;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #29293a;
+}
+
+h1, .h1-style {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 1.2;
+    font-family: 'Dancing Script', handwriting;
+    letter-spacing: 0px;
+    text-align: inherit;
+    color: #29293a;
+}
+
+h2, .h2-style {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 1.4;
+    font-family: Lato, sans-serif;
+    letter-spacing: 0px;
+    text-align: inherit;
+    color: #29293a;
+}
+
+h3, .h3-style {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+    font-family: Lato, sans-serif;
+    letter-spacing: 0px;
+    text-align: inherit;
+    color: #29293a;
+}
+
+h4, .h4-style {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.5;
+    font-family: Lato, sans-serif;
+    letter-spacing: 0px;
+    text-align: inherit;
+    color: #29293a;
+}
+
+h5, .h5-style {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.44;
+    font-family: Lato, sans-serif;
+    letter-spacing: 0px;
+    text-align: inherit;
+    color: #916fbc;
+}
+
+h6, .h6-style {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.44;
+    font-family: Lato, sans-serif;
+    letter-spacing: 0px;
+    text-align: inherit;
+    color: #29293a;
+}
+
+@media (min-width: 1200px) {
+    h1, .h1-style {
+        font-size: 102px;
+    }
+
+    h2, .h2-style {
+        font-size: 40px;
+    }
+
+    h3, .h3-style {
+        font-size: 24px;
+    }
+}
+
+a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+    color: #916fbc;
+}
+
+a:hover {
+    color: #29293a;
+}
+
+blockquote {
+    color: #916fbc;
+}
+
+/* #Header */
+.site-header__wrap {
+    background-color: #ffffff;
+    background-repeat: repeat;
+    background-position: center top;
+    background-attachment: scroll;;
+}
+
+/* ##Top Panel */
+.top-panel {
+    color: #29293a;
+    background-color: #ffffff;
+}
+
+/* #Main Menu */
+.main-navigation {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: Lato, sans-serif;
+    letter-spacing: 0px;
+}
+
+.main-navigation a, .menu-item-has-children:before {
+    color: #29293a;
+}
+
+.main-navigation a:hover, .main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, .main-navigation .current_page_ancestor > a, .main-navigation .current-menu-ancestor > a {
+    color: #29293a;
+}
+
+/* #Mobile Menu */
+.mobile-menu-toggle-button {
+    color: #ffffff;
+    background-color: #916fbc;
+}
+
+/* #Social */
+.social-list a {
+    color: #29293a;
+}
+
+.social-list a:hover {
+    color: #916fbc;
+}
+
+/* #Breadcrumbs */
+.breadcrumbs_item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.75;
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0px;
+}
+
+.breadcrumbs_item_sep, .breadcrumbs_item_link {
+    color: #29293a;
+}
+
+.breadcrumbs_item_link:hover {
+    color: #916fbc;
+}
+
+/* #Post navigation */
+.post-navigation-container i {
+    color: #29293a;
+}
+
+.post-navigation-container .nav-links a:hover .post-title, .post-navigation-container .nav-links a:hover .nav-text {
+    color: #916fbc;
+}
+
+.post-navigation-container .nav-links a:hover i {
+    color: #29293a;
+}
+
+/* #Pagination */
+.posts-list-navigation .pagination .page-numbers, .page-links > span, .page-links > a {
+    color: #29293a;
+}
+
+.posts-list-navigation .pagination a.page-numbers:hover, .posts-list-navigation .pagination .page-numbers.current, .page-links > a:hover, .page-links > span {
+    color: #29293a;
+}
+
+.posts-list-navigation .pagination .next, .posts-list-navigation .pagination .prev {
+    color: #916fbc;
+}
+
+.posts-list-navigation .pagination .next:hover, .posts-list-navigation .pagination .prev:hover {
+    color: #29293a;
+}
+
+/* #Button Appearance Styles (regular scheme) */
+.btn, button, input[type='button'], input[type='reset'], input[type='submit'] {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;
+    font-family: Lato, sans-serif;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background-color: #916fbc;
+}
+
+.btn:hover, button:hover, input[type='button']:hover, input[type='reset']:hover, input[type='submit']:hover, input[type='reset']:hover {
+    color: #ffffff;
+    background-color: rgb(183, 149, 226);
+}
+
+.btn.invert-button {
+    color: #ffffff;
+}
+
+.btn.invert-button:hover {
+    color: #ffffff;
+    border-color: #916fbc;
+    background-color: #916fbc;
+}
+
+/* #Totop Button */
+#toTop {
+    padding: 14px 20px;
+    border-radius: 50px;
+    background-color: #916fbc;
+    color: #ffffff;
+}
+
+#toTop:hover {
+    background-color: #d162bd;
+    color: #ffffff;
+}
+
+input, optgroup, select, textarea {
+    font-size: 16px;
+}
+
+/* #Comment, Contact, Password Forms */
+.comment-form .submit, .wpcf7-submit, .post-password-form label + input {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;
+    font-family: Lato, sans-serif;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background-color: #916fbc;
+}
+
+.comment-form .submit:hover, .wpcf7-submit:hover, .post-password-form label + input:hover {
+    color: #ffffff;
+    background-color: rgb(183, 149, 226);
+}
+
+.comment-reply-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.5;
+    font-family: Lato, sans-serif;
+    letter-spacing: 0px;
+    color: #29293a;
+}
+
+/* Cookies consent */
+.comment-form-cookies-consent input[type='checkbox']:checked ~ label[for=wp-comment-cookies-consent]:before {
+    color: #ffffff;
+    border-color: #916fbc;
+    background-color: #916fbc;
+}
+
+/* #Comment Reply Link */
+#cancel-comment-reply-link {
+    color: #916fbc;
+}
+
+#cancel-comment-reply-link:hover {
+    color: #29293a;
+}
+
+/* #Comment item */
+.comment-body .fn {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.44;
+    font-family: Lato, sans-serif;
+    letter-spacing: 0px;
+    color: #29293a;
+}
+
+.comment-date__time {
+    color: #29293a;
+}
+
+.comment-reply-link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;
+    font-family: Lato, sans-serif;
+    letter-spacing: 1px;
+}
+
+/* #Input Placeholders */
+::-webkit-input-placeholder {
+    color: #29293a;
+}
+
+::-moz-placeholder {
+    color: #29293a;
+}
+
+:-moz-placeholder {
+    color: #29293a;
+}
+
+:-ms-input-placeholder {
+    color: #29293a;
+}
+
+/* #Entry Meta */
+.posted-on, .cat-links, .byline, .tags-links {
+    color: #29293a;
+}
+
+.comments-button {
+    color: #29293a;
+}
+
+.comments-button:hover {
+    color: #ffffff;
+    background-color: #916fbc;
+}
+
+.btn-style .post-categories a {
+    color: #ffffff;
+    background-color: #916fbc;
+}
+
+.btn-style .post-categories a:hover {
+    color: #ffffff;
+    background-color: rgb(183, 149, 226);
+}
+
+.sticky-label {
+    color: #ffffff;
+    background-color: #916fbc;
+}
+
+/* Posts List Item Invert */
+.invert-hover.has-post-thumbnail:hover, .invert-hover.has-post-thumbnail:hover .posted-on, .invert-hover.has-post-thumbnail:hover .cat-links, .invert-hover.has-post-thumbnail:hover .byline, .invert-hover.has-post-thumbnail:hover .tags-links, .invert-hover.has-post-thumbnail:hover .entry-meta, .invert-hover.has-post-thumbnail:hover a, .invert-hover.has-post-thumbnail:hover .btn-icon, .invert-item.has-post-thumbnail, .invert-item.has-post-thumbnail .posted-on, .invert-item.has-post-thumbnail .cat-links, .invert-item.has-post-thumbnail .byline, .invert-item.has-post-thumbnail .tags-links, .invert-item.has-post-thumbnail .entry-meta, .invert-item.has-post-thumbnail a, .invert-item.has-post-thumbnail .btn:hover, .invert-item.has-post-thumbnail .btn-style .post-categories a:hover, .invert, .invert .entry-title, .invert a, .invert .byline, .invert .posted-on, .invert .cat-links, .invert .tags-links {
+    color: #ffffff;
+}
+
+.invert-hover.has-post-thumbnail:hover a:hover, .invert-hover.has-post-thumbnail:hover .btn-icon:hover, .invert-item.has-post-thumbnail a:hover, .invert a:hover {
+    color: #916fbc;
+}
+
+.invert-hover.has-post-thumbnail .btn, .invert-item.has-post-thumbnail .comments-button, .posts-list--default.list-style-v10 .invert.default-item .comments-button {
+    color: #ffffff;
+    background-color: #916fbc;
+}
+
+.invert-hover.has-post-thumbnail .btn:hover, .invert-item.has-post-thumbnail .comments-button:hover, .posts-list--default.list-style-v10 .invert.default-item .comments-button:hover {
+    color: #916fbc;
+    background-color: #ffffff;
+}
+
+/* Default Posts List */
+.list-style-v8 .comments-link {
+    color: #29293a;
+}
+
+.list-style-v8 .comments-link:hover {
+    color: #29293a;
+}
+
+/* Creative Posts List */
+.creative-item .entry-title a:hover {
+    color: #916fbc;
+}
+
+.list-style-default .creative-item a, .creative-item .btn-icon {
+    color: #29293a;
+}
+
+.list-style-default .creative-item a:hover, .creative-item .btn-icon:hover {
+    color: #916fbc;
+}
+
+.list-style-default .creative-item .btn, .list-style-default .creative-item .btn:hover, .list-style-default .creative-item .comments-button:hover {
+    color: #ffffff;
+}
+
+.creative-item__title-first-letter {
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Dancing Script', handwriting;
+    color: #29293a;
+}
+
+.posts-list--creative.list-style-v10 .creative-item:before {
+    background-color: #916fbc;
+    box-shadow: 0px 0px 0px 8px rgba(145, 111, 188, 0.25);
+}
+
+.posts-list--creative.list-style-v10 .creative-item__post-date {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.5;
+    font-family: Lato, sans-serif;
+    letter-spacing: 0px;
+    color: #916fbc;
+}
+
+.posts-list--creative.list-style-v10 .creative-item__post-date a {
+    color: #916fbc;
+}
+
+.posts-list--creative.list-style-v10 .creative-item__post-date a:hover {
+    color: #29293a;
+}
+
+/* Creative Posts List style-v2 */
+.list-style-v2 .creative-item .entry-title, .list-style-v9 .creative-item .entry-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.5;
+    font-family: Lato, sans-serif;
+    letter-spacing: 0px;
+}
+
+/* Image Post Format */
+.post_format-post-format-image .post-thumbnail__link:before {
+    color: #ffffff;
+    background-color: #916fbc;
+}
+
+/* Gallery Post Format */
+.post_format-post-format-gallery .swiper-button-prev, .post_format-post-format-gallery .swiper-button-next {
+    color: #29293a;
+}
+
+.post_format-post-format-gallery .swiper-button-prev:hover, .post_format-post-format-gallery .swiper-button-next:hover {
+    color: #29293a;
+}
+
+/* Link Post Format */
+.post_format-post-format-quote .post-format-quote {
+    color: #ffffff;
+    background-color: #916fbc;
+}
+
+.post_format-post-format-quote .post-format-quote:before {
+    color: #916fbc;
+    background-color: #ffffff;
+}
+
+/* Post Author */
+.post-author__title a {
+    color: #916fbc;
+}
+
+.post-author__title a:hover {
+    color: #29293a;
+}
+
+.invert .post-author__title a {
+    color: #ffffff;
+}
+
+.invert .post-author__title a:hover {
+    color: #916fbc;
+}
+
+/* Single Post */
+.single-post blockquote {
+    border-color: #916fbc;
+}
+
+.single-post:not(.post-template-single-layout-4):not(.post-template-single-layout-7) .tags-links a:hover {
+    color: #ffffff;
+    border-color: #916fbc;
+    background-color: #916fbc;
+}
+
+.single-header-3 .post-author .byline, .single-header-4 .post-author .byline, .single-header-5 .post-author .byline {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.5;
+    font-family: Lato, sans-serif;
+    letter-spacing: 0px;
+}
+
+.single-header-8, .single-header-10 .entry-header {
+    background-color: #916fbc;
+}
+
+.single-header-8.invert a:hover, .single-header-10.invert a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.single-header-3 a.comments-button, .single-header-10 a.comments-button {
+    border: 1px solid #ffffff;
+}
+
+.single-header-3 a.comments-button:hover, .single-header-10 a.comments-button:hover {
+    color: #916fbc;
+    background-color: #ffffff;
+}
+
+/* Page preloader */
+.page-preloader {
+    border-top-color: #916fbc;
+    border-right-color: #916fbc;
+}
+
+/* Logo */
+.site-logo__link, .site-logo__link:hover {
+    color: #916fbc;
+}
+
+/* Page title */
+.page-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 1.4;
+    font-family: Lato, sans-serif;
+    letter-spacing: 0px;
+    color: #29293a;
+}
+
+@media (min-width: 1200px) {
+    .page-title {
+        font-size: 40px;
+    }
+}
+
+/* Grid Posts List */
+.posts-list.list-style-v3 .comments-link {
+    border-color: #916fbc;
+}
+
+.posts-list.list-style-v4 .comments-link {
+    color: #29293a;
+}
+
+.posts-list.list-style-v4 .posts-list__item.grid-item .grid-item-wrap .comments-link:hover {
+    color: #ffffff;
+    background-color: #916fbc;
+}
+
+/* Posts List Grid Item Invert */
+.grid-item-wrap.invert, .grid-item-wrap.invert .posted-on, .grid-item-wrap.invert .cat-links, .grid-item-wrap.invert .byline, .grid-item-wrap.invert .tags-links, .grid-item-wrap.invert .entry-meta, .grid-item-wrap.invert a, .grid-item-wrap.invert .btn-icon, .grid-item-wrap.invert .comments-button {
+    color: #ffffff;
+}
+
+/* Posts List Grid-5 Item Invert */
+.list-style-v5 .grid-item-wrap.invert .posted-on, .list-style-v5 .grid-item-wrap.invert .cat-links, .list-style-v5 .grid-item-wrap.invert .byline, .list-style-v5 .grid-item-wrap.invert .tags-links, .list-style-v5 .grid-item-wrap.invert .posted-on a, .list-style-v5 .grid-item-wrap.invert .cat-links a, .list-style-v5 .grid-item-wrap.invert .tags-links a, .list-style-v5 .grid-item-wrap.invert .byline a, .list-style-v5 .grid-item-wrap.invert .comments-link, .list-style-v5 .grid-item-wrap.invert .entry-title a:hover {
+    color: #916fbc;
+}
+
+.list-style-v5 .grid-item-wrap.invert .posted-on a:hover, .list-style-v5 .grid-item-wrap.invert .cat-links a:hover, .list-style-v5 .grid-item-wrap.invert .tags-links a:hover, .list-style-v5 .grid-item-wrap.invert .byline a:hover, .list-style-v5 .grid-item-wrap.invert .comments-link:hover {
+    color: #ffffff;
+}
+
+/* Posts List Grid-6 Item Invert */
+.posts-list.list-style-v6 .posts-list__item.grid-item .grid-item-wrap .cat-links a, .posts-list.list-style-v7 .posts-list__item.grid-item .grid-item-wrap .cat-links a {
+    color: #ffffff;
+    background-color: #916fbc;
+}
+
+.posts-list.list-style-v6 .posts-list__item.grid-item .grid-item-wrap .cat-links a:hover, .posts-list.list-style-v7 .posts-list__item.grid-item .grid-item-wrap .cat-links a:hover {
+    color: #ffffff;
+    background-color: rgb(183, 149, 226);
+}
+
+.posts-list.list-style-v9 .posts-list__item.grid-item .grid-item-wrap .entry-header .entry-title {
+    font-weight: 300;
+}
+
+/* Grid 7 */
+.list-style-v7 .grid-item-wrap.invert .posted-on a:hover, .list-style-v7 .grid-item-wrap.invert .cat-links a:hover, .list-style-v7 .grid-item-wrap.invert .tags-links a:hover, .list-style-v7 .grid-item-wrap.invert .byline a:hover, .list-style-v7 .grid-item-wrap.invert .comments-link:hover, .list-style-v7 .grid-item-wrap.invert .entry-title a:hover, .list-style-v6 .grid-item-wrap.invert .posted-on a:hover, .list-style-v6 .grid-item-wrap.invert .cat-links a:hover, .list-style-v6 .grid-item-wrap.invert .tags-links a:hover, .list-style-v6 .grid-item-wrap.invert .byline a:hover, .list-style-v6 .grid-item-wrap.invert .comments-link:hover, .list-style-v6 .grid-item-wrap.invert .entry-title a:hover {
+    color: #916fbc;
+}
+
+.list-style-v7 .grid-item-wrap.invert .posted-on, .list-style-v7 .grid-item-wrap.invert .cat-links, .list-style-v7 .grid-item-wrap.invert .byline, .list-style-v7 .grid-item-wrap.invert .tags-links, .list-style-v7 .grid-item-wrap.invert .posted-on a, .list-style-v7 .grid-item-wrap.invert .cat-links a, .list-style-v7 .grid-item-wrap.invert .tags-links a, .list-style-v7 .grid-item-wrap.invert .byline a, .list-style-v7 .grid-item-wrap.invert .comments-link, .list-style-v7 .grid-item-wrap.invert .entry-title a, .list-style-v7 .grid-item-wrap.invert .entry-content p, .list-style-v6 .grid-item-wrap.invert .posted-on, .list-style-v6 .grid-item-wrap.invert .cat-links, .list-style-v6 .grid-item-wrap.invert .byline, .list-style-v6 .grid-item-wrap.invert .tags-links, .list-style-v6 .grid-item-wrap.invert .posted-on a, .list-style-v6 .grid-item-wrap.invert .cat-links a, .list-style-v6 .grid-item-wrap.invert .tags-links a, .list-style-v6 .grid-item-wrap.invert .byline a, .list-style-v6 .grid-item-wrap.invert .comments-link, .list-style-v6 .grid-item-wrap.invert .entry-title a, .list-style-v6 .grid-item-wrap.invert .entry-content p {
+    color: #ffffff;
+}
+
+.posts-list.list-style-v7 .grid-item .grid-item-wrap .entry-footer .comments-link:hover, .posts-list.list-style-v6 .grid-item .grid-item-wrap .entry-footer .comments-link:hover, .posts-list.list-style-v6 .posts-list__item.grid-item .grid-item-wrap .btn:hover, .posts-list.list-style-v7 .posts-list__item.grid-item .grid-item-wrap .btn:hover {
+    color: #916fbc;
+    border-color: #916fbc;
+}
+
+.posts-list.list-style-v10 .grid-item-inner .space-between-content .comments-link {
+    color: #29293a;
+}
+
+.posts-list.list-style-v10 .grid-item-inner .space-between-content .comments-link:hover {
+    color: #916fbc;
+}
+
+.posts-list.list-style-v10 .posts-list__item.justify-item .justify-item-inner .entry-title a {
+    color: #29293a;
+}
+
+.posts-list.posts-list--vertical-justify.list-style-v10 .posts-list__item.justify-item .justify-item-inner .entry-title a:hover {
+    color: #ffffff;
+    background-color: #916fbc;
+}
+
+.posts-list.list-style-v5 .posts-list__item.justify-item .justify-item-inner.invert .cat-links a:hover, .posts-list.list-style-v8 .posts-list__item.justify-item .justify-item-inner.invert .cat-links a:hover {
+    color: #ffffff;
+    background-color: rgb(183, 149, 226);
+}
+
+.posts-list.list-style-v5 .posts-list__item.justify-item .justify-item-inner.invert .cat-links a, .posts-list.list-style-v8 .posts-list__item.justify-item .justify-item-inner.invert .cat-links a {
+    color: #ffffff;
+    background-color: #916fbc;
+}
+
+.list-style-v8 .justify-item-inner.invert .posted-on, .list-style-v8 .justify-item-inner.invert .cat-links, .list-style-v8 .justify-item-inner.invert .byline, .list-style-v8 .justify-item-inner.invert .tags-links, .list-style-v8 .justify-item-inner.invert .posted-on a, .list-style-v8 .justify-item-inner.invert .cat-links a, .list-style-v8 .justify-item-inner.invert .tags-links a, .list-style-v8 .justify-item-inner.invert .byline a, .list-style-v8 .justify-item-inner.invert .comments-link, .list-style-v8 .justify-item-inner.invert .entry-title a, .list-style-v8 .justify-item-inner.invert .entry-content p, .list-style-v5 .justify-item-inner.invert .posted-on, .list-style-v5 .justify-item-inner.invert .cat-links, .list-style-v5 .justify-item-inner.invert .byline, .list-style-v5 .justify-item-inner.invert .tags-links, .list-style-v5 .justify-item-inner.invert .posted-on a, .list-style-v5 .justify-item-inner.invert .cat-links a, .list-style-v5 .justify-item-inner.invert .tags-links a, .list-style-v5 .justify-item-inner.invert .byline a, .list-style-v5 .justify-item-inner.invert .comments-link, .list-style-v5 .justify-item-inner.invert .entry-title a, .list-style-v5 .justify-item-inner.invert .entry-content p, .list-style-v4 .justify-item-inner.invert .posted-on:hover, .list-style-v4 .justify-item-inner.invert .cat-links, .list-style-v4 .justify-item-inner.invert .byline, .list-style-v4 .justify-item-inner.invert .tags-links, .list-style-v4 .justify-item-inner.invert .posted-on a, .list-style-v4 .justify-item-inner.invert .cat-links a, .list-style-v4 .justify-item-inner.invert .tags-links a, .list-style-v4 .justify-item-inner.invert .byline a, .list-style-v4 .justify-item-inner.invert .comments-link, .list-style-v4 .justify-item-inner.invert .entry-title a, .list-style-v4 .justify-item-inner.invert .entry-content p {
+    color: #ffffff;
+}
+
+.list-style-v8 .justify-item-inner.invert .posted-on a:hover, .list-style-v8 .justify-item-inner.invert .cat-links a:hover, .list-style-v8 .justify-item-inner.invert .tags-links a:hover, .list-style-v8 .justify-item-inner.invert .byline a:hover, .list-style-v8 .justify-item-inner.invert .comments-link:hover, .list-style-v8 .justify-item-inner.invert .entry-title a:hover, .list-style-v5 .justify-item-inner.invert .posted-on a:hover, .list-style-v5 .justify-item-inner.invert .cat-links a:hover, .list-style-v5 .justify-item-inner.invert .tags-links a:hover, .list-style-v5 .justify-item-inner.invert .byline a:hover, .list-style-v5 .justify-item-inner.invert .entry-title a:hover, .list-style-v4 .justify-item-inner.invert .posted-on a, .list-style-v4 .justify-item-inner.invert .cat-links a:hover, .list-style-v4 .justify-item-inner.invert .tags-links a:hover, .list-style-v4 .justify-item-inner.invert .byline a:hover, .list-style-v4 .justify-item-inner.invert .comments-link:hover, .list-style-v4 .justify-item-inner.invert .entry-title a:hover {
+    color: #916fbc;
+}
+
+.posts-list.list-style-v5 .justify-item .justify-item-wrap .entry-footer .comments-link:hover {
+    border-color: #916fbc;
+}
+
+.list-style-v4 .justify-item-inner.invert .btn:hover, .list-style-v6 .justify-item-wrap.invert .btn:hover, .list-style-v8 .justify-item-inner.invert .btn:hover {
+    color: #ffffff;
+}
+
+.posts-list.posts-list--vertical-justify.list-style-v5 .posts-list__item.justify-item .justify-item-wrap .entry-footer .comments-link:hover, .posts-list.posts-list--vertical-justify.list-style-v5 .posts-list__item.justify-item .justify-item-wrap .entry-footer .btn:hover {
+    color: #916fbc;
+    border-color: #916fbc;
+}
+
+/* masonry Posts List */
+.posts-list.list-style-v3 .comments-link {
+    border-color: #916fbc;
+}
+
+.posts-list.list-style-v4 .comments-link {
+    color: #29293a;
+}
+
+.posts-list.list-style-v4 .posts-list__item.masonry-item .masonry-item-wrap .comments-link:hover {
+    color: #ffffff;
+    background-color: #916fbc;
+}
+
+/* Posts List masonry Item Invert */
+.masonry-item-wrap.invert, .masonry-item-wrap.invert .posted-on, .masonry-item-wrap.invert .cat-links, .masonry-item-wrap.invert .byline, .masonry-item-wrap.invert .tags-links, .masonry-item-wrap.invert .entry-meta, .masonry-item-wrap.invert a, .masonry-item-wrap.invert .btn-icon, .masonry-item-wrap.invert .comments-button {
+    color: #ffffff;
+}
+
+/* Posts List masonry-5 Item Invert */
+.list-style-v5 .masonry-item-wrap.invert .posted-on, .list-style-v5 .masonry-item-wrap.invert .cat-links, .list-style-v5 .masonry-item-wrap.invert .byline, .list-style-v5 .masonry-item-wrap.invert .tags-links, .list-style-v5 .masonry-item-wrap.invert .posted-on a, .list-style-v5 .masonry-item-wrap.invert .cat-links a, .list-style-v5 .masonry-item-wrap.invert .tags-links a, .list-style-v5 .masonry-item-wrap.invert .byline a, .list-style-v5 .masonry-item-wrap.invert .comments-link, .list-style-v5 .masonry-item-wrap.invert .entry-title a:hover {
+    color: #916fbc;
+}
+
+.list-style-v5 .masonry-item-wrap.invert .posted-on a:hover, .list-style-v5 .masonry-item-wrap.invert .cat-links a:hover, .list-style-v5 .masonry-item-wrap.invert .tags-links a:hover, .list-style-v5 .masonry-item-wrap.invert .byline a:hover, .list-style-v5 .masonry-item-wrap.invert .comments-link:hover {
+    color: #ffffff;
+}
+
+.posts-list.list-style-v10 .masonry-item-inner .space-between-content .comments-link {
+    color: #29293a;
+}
+
+.posts-list.list-style-v10 .masonry-item-inner .space-between-content .comments-link:hover {
+    color: #916fbc;
+}
+
+.widget_recent_entries a, .widget_recent_comments a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.44;
+    font-family: Lato, sans-serif;
+    letter-spacing: 0px;
+    color: #29293a;
+}
+
+.widget_recent_entries a:hover, .widget_recent_comments a:hover {
+    color: #916fbc;
+}
+
+.widget_recent_entries .post-date, .widget_recent_comments .recentcomments {
+    color: #29293a;
+}
+
+.widget_recent_comments .comment-author-link a {
+    color: #29293a;
+}
+
+.widget_recent_comments .comment-author-link a:hover {
+    color: #916fbc;
+}
+
+.widget_calendar th, .widget_calendar caption {
+    color: #916fbc;
+}
+
+.widget_calendar tbody td a {
+    color: #29293a;
+}
+
+.widget_calendar tbody td a:hover {
+    color: #ffffff;
+    background-color: #916fbc;
+}
+
+.widget_calendar tfoot td a {
+    color: #29293a;
+}
+
+.widget_calendar tfoot td a:hover {
+    color: #29293a;
+}
+
+/* Preloader */
+.jet-smart-listing-wrap.jet-processing + div.jet-smart-listing-loading, div.wpcf7 .ajax-loader {
+    border-top-color: #916fbc;
+    border-right-color: #916fbc;
+}
+
+/*--------------------------------------------------------------## Ecwid Plugin Styles--------------------------------------------------------------*//* Product Title, Product Price amount */
+html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid-product__title-inner, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products .grid-product__image ~ .grid-product__price .grid-product__price-amount, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products .grid-product__image ~ .grid-product__title .grid-product__price-amount, html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products--medium-items.grid__products--layout-center .grid-product__price-compare, html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products--medium-items .grid-product__details, html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products--medium-items .grid-product__sku, html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products--medium-items .grid-product__sku-hover, html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products--medium-items .grid-product__tax, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .form__msg, html#ecwid_html body#ecwid_body .ec-size.ec-size--l .ec-wrapper .ec-store h1, html#ecwid_html body#ecwid_body.page .ec-size .ec-wrapper .ec-store .product-details__product-title, html#ecwid_html body#ecwid_body.page .ec-size .ec-wrapper .ec-store .product-details__product-price, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .product-details-module__title, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .ec-cart-summary__row--total .ec-cart-summary__title, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .ec-cart-summary__row--total .ec-cart-summary__price, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__categories * {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.44;
+    font-family: Lato, sans-serif;
+    letter-spacing: 0px;
+}
+
+html#ecwid_html body#ecwid_body .ecwid .ec-size .ec-wrapper .ec-store .product-details__product-description {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: Lato, sans-serif;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #29293a;
+}
+
+html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid-product__title-inner, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products .grid-product__image ~ .grid-product__price .grid-product__price-amount, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products .grid-product__image ~ .grid-product__title .grid-product__price-amount, html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products--medium-items.grid__products--layout-center .grid-product__price-compare, html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products--medium-items .grid-product__details, html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products--medium-items .grid-product__sku, html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products--medium-items .grid-product__sku-hover, html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products--medium-items .grid-product__tax, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .product-details-module__title, html#ecwid_html body#ecwid_body.page .ec-size .ec-wrapper .ec-store .product-details__product-price, html#ecwid_html body#ecwid_body.page .ec-size .ec-wrapper .ec-store .product-details__product-title, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .form-control__text, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .form-control__textarea, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .ec-link, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .ec-link:visited, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store input[type="radio"].form-control__radio:checked + .form-control__radio-view::after {
+    color: #916fbc;
+}
+
+html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .ec-link:hover {
+    color: #29293a;
+}
+
+/* Product Title, Price small state */
+html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--small-items .grid-product__title-inner, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--small-items .grid-product__price-hover .grid-product__price-amount, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--small-items .grid-product__image ~ .grid-product__price .grid-product__price-amount, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--small-items .grid-product__image ~ .grid-product__title .grid-product__price-amount, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--small-items.grid__products--layout-center .grid-product__price-compare, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--small-items .grid-product__details, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--small-items .grid-product__sku, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--small-items .grid-product__sku-hover, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--small-items .grid-product__tax {
+    font-size: 15px;
+}
+
+/* Product Title, Price medium state */
+html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--medium-items .grid-product__title-inner, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--medium-items .grid-product__price-hover .grid-product__price-amount, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--medium-items .grid-product__image ~ .grid-product__price .grid-product__price-amount, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--medium-items .grid-product__image ~ .grid-product__title .grid-product__price-amount, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--medium-items.grid__products--layout-center .grid-product__price-compare, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--medium-items .grid-product__details, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--medium-items .grid-product__sku, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--medium-items .grid-product__sku-hover, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--medium-items .grid-product__tax {
+    font-size: 18px;
+}
+
+/* Product Title, Price large state */
+html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--large-items .grid-product__title-inner, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--large-items .grid-product__price-hover .grid-product__price-amount, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--large-items .grid-product__image ~ .grid-product__price .grid-product__price-amount, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--large-items .grid-product__image ~ .grid-product__title .grid-product__price-amount, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--large-items.grid__products--layout-center .grid-product__price-compare, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--large-items .grid-product__details, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--large-items .grid-product__sku, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--large-items .grid-product__sku-hover, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--large-items .grid-product__tax {
+    font-size: 22px;
+}
+
+/* Product Add To Cart button */
+html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store button {
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
+    font-family: Lato, sans-serif;
+    letter-spacing: 1px;
+}
+
+/* Product Add To Cart button normal state */
+html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .form-control--secondary .form-control__button, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .form-control--primary .form-control__button {
+    border-color: #916fbc;
+    background-color: transparent;
+    color: #916fbc;
+}
+
+/* Product Add To Cart button hover state, Product Category active state */
+html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .form-control--secondary .form-control__button:hover, html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .form-control--primary .form-control__button:hover, html#ecwid_html body#ecwid_body .horizontal-menu-container.horizontal-desktop .horizontal-menu-item.horizontal-menu-item--active > a {
+    border-color: #916fbc;
+    background-color: #916fbc;
+    color: #ffffff;
+}
+
+/* Black Product Add To Cart button normal state */
+html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--appearance-hover .grid-product--dark .form-control--secondary .form-control__button {
+    border-color: #916fbc;
+    background-color: #916fbc;
+    color: #ffffff;
+}
+
+/* Black Product Add To Cart button normal state */
+html#ecwid_html body#ecwid_body .ec-size .ec-wrapper .ec-store .grid__products--appearance-hover .grid-product--dark .form-control--secondary .form-control__button:hover {
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: #916fbc;
+}
+
+/* Product Add To Cart button small label */
+html#ecwid_html body#ecwid_body .ec-size.ec-size--l .ec-wrapper .ec-store .form-control .form-control__button {
+    font-size: 17px;
+}
+
+/* Product Add To Cart button medium label */
+html#ecwid_html body#ecwid_body .ec-size.ec-size--l .ec-wrapper .ec-store .form-control--small .form-control__button {
+    font-size: 18px;
+}
+
+/* Product Add To Cart button large label */
+html#ecwid_html body#ecwid_body .ec-size.ec-size--l .ec-wrapper .ec-store .form-control--medium .form-control__button {
+    font-size: 22px;
+}
+
+/* Mini Cart icon styles */
+html#ecwid_html body#ecwid_body .ec-minicart__body .ec-minicart__icon .icon-default path[stroke], html#ecwid_html body#ecwid_body .ec-minicart__body .ec-minicart__icon .icon-default circle[stroke] {
+    stroke: #916fbc;
+}
+
+html#ecwid_html body#ecwid_body .ec-minicart:hover .ec-minicart__body .ec-minicart__icon .icon-default path[stroke], html#ecwid_html body#ecwid_body .ec-minicart:hover .ec-minicart__body .ec-minicart__icon .icon-default circle[stroke] {
+    stroke: #29293a;
+}
+
+.elementor-kit-1 {
+    --e-global-color-primary: #6EC1E4;
+    --e-global-color-secondary: #54595F;
+    --e-global-color-text: #7A7A7A;
+    --e-global-color-accent: #61CE70;
+    --e-global-typography-primary-font-family: "Roboto";
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-secondary-font-family: "Roboto Slab";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Roboto";
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "Roboto";
+    --e-global-typography-accent-font-weight: 500;
+}
+
+.elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1140px;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+{
+}
+h1.entry-title {
+    display: var(--page-title-display);
+}
+
+@media (max-width: 1024px) {
+    .elementor-section.elementor-section-boxed > .elementor-container {
+        max-width: 1025px;
+    }
+}
+
+@media (max-width: 767px) {
+    .elementor-section.elementor-section-boxed > .elementor-container {
+        max-width: 768px;
+    }
+}
+
+.elementor-8 .elementor-element.elementor-element-e3bdb51 .jet-slider .slider-pro .jet-slider__content-inner {
+    max-width: 1200px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e3bdb51 .jet-slider .sp-buttons {
+    max-width: 1200px;
+    text-align: left;
+    margin-top: -84px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e3bdb51 .jet-slider .sp-image-container:after {
+    opacity: 0.2;
+}
+
+.elementor-8 .elementor-element.elementor-element-e3bdb51 .jet-slider__content-inner {
+    padding: 0px 015px 0px 015px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e3bdb51 .jet-slider__icon {
+    justify-content: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-e3bdb51 .jet-slider__title {
+    text-align: left;
+    color: #FFFFFF;
+    font-family: "Dancing Script", Sans-serif;
+    font-size: 102px;
+    font-weight: 900;
+    line-height: 1.44em;
+    letter-spacing: 0px;
+    margin: -20px 0px -28px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e3bdb51 .jet-slider__subtitle {
+    text-align: left;
+    color: #FFFFFF;
+    font-family: "Lato", Sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    text-transform: capitalize;
+    line-height: 1.44em;
+    letter-spacing: 0.7px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e3bdb51 .jet-slider__desc {
+    align-self: center;
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-e3bdb51 .jet-slider__button-wrapper {
+    text-align: left;
+}
+
+.elementor-8 .elementor-element.elementor-element-e3bdb51 .jet-slider__button--primary {
+    padding: 018px 051px 018px 051px;
+    margin: 042px 0px 0px 0px;
+    background-color: #916FBC;
+    color: #FFFFFF;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e3bdb51 .jet-slider__button--primary {
+    font-family: "Lato", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1em;
+    letter-spacing: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e3bdb51 .jet-slider__button--primary:hover {
+    background-color: #D35EBE;
+}
+
+.elementor-8 .elementor-element.elementor-element-e3bdb51 .jet-slider .sp-buttons .sp-button {
+    margin: 0px 15px 68px 18px;
+    background-color: #FFFFFF87;
+    width: 10px;
+    height: 10px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF7D;
+}
+
+.elementor-8 .elementor-element.elementor-element-e3bdb51 .jet-slider .sp-buttons .sp-button.sp-selected-button {
+    background-color: #FFFFFF;
+    width: 10px;
+    height: 10px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF;
+    box-shadow: 0px 0px 0px 3px #FFFFFF;
+}
+
+.elementor-8 .elementor-element.elementor-element-e3bdb51 .jet-slider .sp-thumbnail-container:hover:before {
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e3bdb51 .jet-slider .sp-thumbnail-container.sp-selected-thumbnail:before {
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e3bdb51 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-f79d65c {
+    margin-top: -133px;
+    margin-bottom: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-6e7b77a > .elementor-container {
+    max-width: 820px;
+}
+
+.elementor-8 .elementor-element.elementor-element-6b45e4c > .elementor-element-populated {
+    padding: 0px 015px 0px 015px;
+}
+
+.elementor-8 .elementor-element.elementor-element-bad4f2f .elementor-text-editor {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-bad4f2f {
+    color: #916FBC;
+    font-family: "Dancing Script", Sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1em;
+    letter-spacing: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-bad4f2f > .elementor-widget-container {
+    margin: 0px 0px -34px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-bad4f2f > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-c020af1 {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-c020af1 .elementor-heading-title {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1em;
+    letter-spacing: 0.7px;
+}
+
+.elementor-8 .elementor-element.elementor-element-c020af1 > .elementor-widget-container {
+    margin: 0px 0px 05px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-c020af1 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-e16d2f2 > .elementor-widget-container {
+    margin: 0px 0px 014px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e16d2f2 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-ac6f211 .elementor-text-editor {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-ac6f211 {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6em;
+    letter-spacing: 0.3px;
+}
+
+.elementor-8 .elementor-element.elementor-element-ac6f211 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-6e7b77a {
+    padding: 095px 0px 026px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-8dddca7 > .elementor-container {
+    max-width: 1200px;
+}
+
+.elementor-8 .elementor-element.elementor-element-3f1f2eb > .elementor-element-populated {
+    padding: 0px 015px 0px 015px;
+}
+
+.elementor-8 .elementor-element.elementor-element-65a03ed {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-65a03ed .elementor-image img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.elementor-8 .elementor-element.elementor-element-65a03ed > .elementor-widget-container {
+    margin: 0px 0px 07px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-65a03ed > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-326e3b9 {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-326e3b9 .elementor-heading-title {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-326e3b9 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-8823ddb {
+    --divider-border-style: solid;
+    --divider-color: #D35EBE;
+    --divider-border-width: 2px;
+}
+
+.elementor-8 .elementor-element.elementor-element-8823ddb .elementor-divider-separator {
+    width: 64px;
+    margin: 0 auto;
+    margin-center: 0;
+}
+
+.elementor-8 .elementor-element.elementor-element-8823ddb .elementor-divider {
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.elementor-8 .elementor-element.elementor-element-8823ddb > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-8984a66 .elementor-text-editor {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-8984a66 {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.64em;
+    letter-spacing: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-8984a66 > .elementor-widget-container {
+    margin: -5px 0px -20px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-8984a66 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-e1b77d0 .elementor-text-editor {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-e1b77d0 {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.64em;
+    letter-spacing: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e1b77d0 > .elementor-widget-container {
+    margin: -6px 0px 0px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e1b77d0 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-cfbc20f > .elementor-element-populated {
+    padding: 0px 015px 0px 015px;
+}
+
+.elementor-8 .elementor-element.elementor-element-289aebe {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-289aebe .elementor-image img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.elementor-8 .elementor-element.elementor-element-289aebe > .elementor-widget-container {
+    margin: 0px 0px 07px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-289aebe > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-e29bb40 {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-e29bb40 .elementor-heading-title {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e29bb40 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-bf4ecae {
+    --divider-border-style: solid;
+    --divider-color: #D35EBE;
+    --divider-border-width: 2px;
+}
+
+.elementor-8 .elementor-element.elementor-element-bf4ecae .elementor-divider-separator {
+    width: 64px;
+    margin: 0 auto;
+    margin-center: 0;
+}
+
+.elementor-8 .elementor-element.elementor-element-bf4ecae .elementor-divider {
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.elementor-8 .elementor-element.elementor-element-bf4ecae > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-298a7ce .elementor-text-editor {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-298a7ce {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.64em;
+    letter-spacing: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-298a7ce > .elementor-widget-container {
+    margin: -5px 0px -20px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-298a7ce > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-d5fc348 .elementor-text-editor {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-d5fc348 {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.64em;
+    letter-spacing: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-d5fc348 > .elementor-widget-container {
+    margin: -6px 0px 0px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-d5fc348 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-741d31e > .elementor-element-populated {
+    padding: 0px 015px 0px 015px;
+}
+
+.elementor-8 .elementor-element.elementor-element-1a73c38 {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-1a73c38 .elementor-image img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.elementor-8 .elementor-element.elementor-element-1a73c38 > .elementor-widget-container {
+    margin: 0px 0px 07px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-1a73c38 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-bd279ba {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-bd279ba .elementor-heading-title {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-bd279ba > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-2163a90 {
+    --divider-border-style: solid;
+    --divider-color: #D35EBE;
+    --divider-border-width: 2px;
+}
+
+.elementor-8 .elementor-element.elementor-element-2163a90 .elementor-divider-separator {
+    width: 64px;
+    margin: 0 auto;
+    margin-center: 0;
+}
+
+.elementor-8 .elementor-element.elementor-element-2163a90 .elementor-divider {
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.elementor-8 .elementor-element.elementor-element-2163a90 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-76e795d .elementor-text-editor {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-76e795d {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.64em;
+    letter-spacing: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-76e795d > .elementor-widget-container {
+    margin: -5px 0px -20px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-76e795d > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-a3e7efe .elementor-text-editor {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-a3e7efe {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.64em;
+    letter-spacing: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-a3e7efe > .elementor-widget-container {
+    margin: -6px 0px 0px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-a3e7efe > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-ae0dc01 > .elementor-element-populated {
+    padding: 0px 015px 0px 015px;
+}
+
+.elementor-8 .elementor-element.elementor-element-f6a951c {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-f6a951c .elementor-image img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.elementor-8 .elementor-element.elementor-element-f6a951c > .elementor-widget-container {
+    margin: 0px 0px 07px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-f6a951c > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-27dc2ef {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-27dc2ef .elementor-heading-title {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-27dc2ef > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-d8681c1 {
+    --divider-border-style: solid;
+    --divider-color: #D35EBE;
+    --divider-border-width: 2px;
+}
+
+.elementor-8 .elementor-element.elementor-element-d8681c1 .elementor-divider-separator {
+    width: 64px;
+    margin: 0 auto;
+    margin-center: 0;
+}
+
+.elementor-8 .elementor-element.elementor-element-d8681c1 .elementor-divider {
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.elementor-8 .elementor-element.elementor-element-d8681c1 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-ca86166 .elementor-text-editor {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-ca86166 {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.64em;
+    letter-spacing: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-ca86166 > .elementor-widget-container {
+    margin: -5px 0px -20px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-ca86166 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-2b4dde7 .elementor-text-editor {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-2b4dde7 {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.64em;
+    letter-spacing: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-2b4dde7 > .elementor-widget-container {
+    margin: -6px 0px 0px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-2b4dde7 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-6247ce6 > .elementor-container {
+    max-width: 1200px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e0aeb9c .jet-button__instance {
+    width: 192px;
+    height: 54px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e0aeb9c .jet-button__container {
+    justify-content: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-e0aeb9c .jet-button__instance:hover {
+    border-radius: 25px 25px 25px 25px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e0aeb9c .jet-button__plane-normal {
+    background-color: #916FBC;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e0aeb9c .jet-button__plane-hover {
+    background-color: #D162BD;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e0aeb9c .jet-button__state-normal .jet-button__label {
+    text-align: left;
+}
+
+.elementor-8 .elementor-element.elementor-element-e0aeb9c .jet-button__state-hover .jet-button__label {
+    text-align: left;
+}
+
+.elementor-8 .elementor-element.elementor-element-e0aeb9c .jet-button__state-normal .jet-button__label {
+    font-family: "Lato", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.elementor-8 .elementor-element.elementor-element-e0aeb9c .jet-button__state-hover .jet-button__label {
+    font-family: "Lato", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.elementor-8 .elementor-element.elementor-element-e0aeb9c > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-6247ce6 {
+    padding: 24px 0px 103px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-b078e78 > .elementor-container {
+    max-width: 1200px;
+}
+
+.elementor-8 .elementor-element.elementor-element-496a171 > .elementor-element-populated {
+    padding: 0px 015px 0px 015px;
+}
+
+.elementor-8 .elementor-element.elementor-element-2272dea .elementor-text-editor {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-2272dea {
+    color: #916FBC;
+    font-family: "Dancing Script", Sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1em;
+    letter-spacing: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-2272dea > .elementor-widget-container {
+    margin: 0px 0px -34px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-2272dea > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-e9bd425 {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-e9bd425 .elementor-heading-title {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: 0.7px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e9bd425 > .elementor-widget-container {
+    margin: 0px 0px 05px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e9bd425 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-3cd3238 > .elementor-widget-container {
+    margin: 0px 0px 30px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-3cd3238 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-5a9e590.elementor-view-stacked .elementor-icon {
+    background-color: #916FBC;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.elementor-8 .elementor-element.elementor-element-5a9e590.elementor-view-framed .elementor-icon, .elementor-8 .elementor-element.elementor-element-5a9e590.elementor-view-default .elementor-icon {
+    fill: #916FBC;
+    color: #916FBC;
+    border-color: #916FBC;
+}
+
+.elementor-8 .elementor-element.elementor-element-5a9e590.elementor-view-framed .elementor-icon {
+    background-color: #FFFFFF;
+}
+
+.elementor-8 .elementor-element.elementor-element-5a9e590.elementor-view-stacked .elementor-icon:hover {
+    background-color: #D35EBE;
+}
+
+.elementor-8 .elementor-element.elementor-element-5a9e590.elementor-view-framed .elementor-icon:hover, .elementor-8 .elementor-element.elementor-element-5a9e590.elementor-view-default .elementor-icon:hover {
+    fill: #D35EBE;
+    color: #D35EBE;
+    border-color: #D35EBE;
+}
+
+.elementor-8 .elementor-element.elementor-element-5a9e590.elementor-position-right .elementor-icon-box-icon {
+    margin-left: 9px;
+}
+
+.elementor-8 .elementor-element.elementor-element-5a9e590.elementor-position-left .elementor-icon-box-icon {
+    margin-right: 9px;
+}
+
+.elementor-8 .elementor-element.elementor-element-5a9e590.elementor-position-top .elementor-icon-box-icon {
+    margin-bottom: 9px;
+}
+
+.elementor-8 .elementor-element.elementor-element-5a9e590 .elementor-icon {
+    font-size: 35px;
+}
+
+.elementor-8 .elementor-element.elementor-element-5a9e590 .elementor-icon i {
+    transform: rotate(0deg);
+}
+
+.elementor-8 .elementor-element.elementor-element-5a9e590 .elementor-icon-box-title {
+    margin-bottom: 10px;
+}
+
+.elementor-8 .elementor-element.elementor-element-5a9e590 .elementor-icon-box-content .elementor-icon-box-title {
+    color: #29293A;
+}
+
+.elementor-8 .elementor-element.elementor-element-5a9e590 .elementor-icon-box-content .elementor-icon-box-title, .elementor-8 .elementor-element.elementor-element-5a9e590 .elementor-icon-box-content .elementor-icon-box-title a {
+    font-family: "Lato", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.375em;
+    letter-spacing: 0.48px;
+}
+
+.elementor-8 .elementor-element.elementor-element-5a9e590 .elementor-icon-box-content .elementor-icon-box-description {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.64em;
+    letter-spacing: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-5a9e590 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-efb44e7.elementor-view-stacked .elementor-icon {
+    background-color: #916FBC;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.elementor-8 .elementor-element.elementor-element-efb44e7.elementor-view-framed .elementor-icon, .elementor-8 .elementor-element.elementor-element-efb44e7.elementor-view-default .elementor-icon {
+    fill: #916FBC;
+    color: #916FBC;
+    border-color: #916FBC;
+}
+
+.elementor-8 .elementor-element.elementor-element-efb44e7.elementor-view-framed .elementor-icon {
+    background-color: #FFFFFF;
+}
+
+.elementor-8 .elementor-element.elementor-element-efb44e7.elementor-view-stacked .elementor-icon:hover {
+    background-color: #D35EBE;
+}
+
+.elementor-8 .elementor-element.elementor-element-efb44e7.elementor-view-framed .elementor-icon:hover, .elementor-8 .elementor-element.elementor-element-efb44e7.elementor-view-default .elementor-icon:hover {
+    fill: #D35EBE;
+    color: #D35EBE;
+    border-color: #D35EBE;
+}
+
+.elementor-8 .elementor-element.elementor-element-efb44e7.elementor-position-right .elementor-icon-box-icon {
+    margin-left: 9px;
+}
+
+.elementor-8 .elementor-element.elementor-element-efb44e7.elementor-position-left .elementor-icon-box-icon {
+    margin-right: 9px;
+}
+
+.elementor-8 .elementor-element.elementor-element-efb44e7.elementor-position-top .elementor-icon-box-icon {
+    margin-bottom: 9px;
+}
+
+.elementor-8 .elementor-element.elementor-element-efb44e7 .elementor-icon {
+    font-size: 35px;
+}
+
+.elementor-8 .elementor-element.elementor-element-efb44e7 .elementor-icon i {
+    transform: rotate(0deg);
+}
+
+.elementor-8 .elementor-element.elementor-element-efb44e7 .elementor-icon-box-title {
+    margin-bottom: 10px;
+}
+
+.elementor-8 .elementor-element.elementor-element-efb44e7 .elementor-icon-box-content .elementor-icon-box-title {
+    color: #29293A;
+}
+
+.elementor-8 .elementor-element.elementor-element-efb44e7 .elementor-icon-box-content .elementor-icon-box-title, .elementor-8 .elementor-element.elementor-element-efb44e7 .elementor-icon-box-content .elementor-icon-box-title a {
+    font-family: "Lato", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.375em;
+    letter-spacing: 0.48px;
+}
+
+.elementor-8 .elementor-element.elementor-element-efb44e7 .elementor-icon-box-content .elementor-icon-box-description {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.64em;
+    letter-spacing: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-efb44e7 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-305425c {
+    padding: 0px 0px 52px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-c44b008.elementor-view-stacked .elementor-icon {
+    background-color: #916FBC;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.elementor-8 .elementor-element.elementor-element-c44b008.elementor-view-framed .elementor-icon, .elementor-8 .elementor-element.elementor-element-c44b008.elementor-view-default .elementor-icon {
+    fill: #916FBC;
+    color: #916FBC;
+    border-color: #916FBC;
+}
+
+.elementor-8 .elementor-element.elementor-element-c44b008.elementor-view-framed .elementor-icon {
+    background-color: #FFFFFF;
+}
+
+.elementor-8 .elementor-element.elementor-element-c44b008.elementor-view-stacked .elementor-icon:hover {
+    background-color: #D35EBE;
+}
+
+.elementor-8 .elementor-element.elementor-element-c44b008.elementor-view-framed .elementor-icon:hover, .elementor-8 .elementor-element.elementor-element-c44b008.elementor-view-default .elementor-icon:hover {
+    fill: #D35EBE;
+    color: #D35EBE;
+    border-color: #D35EBE;
+}
+
+.elementor-8 .elementor-element.elementor-element-c44b008.elementor-position-right .elementor-icon-box-icon {
+    margin-left: 9px;
+}
+
+.elementor-8 .elementor-element.elementor-element-c44b008.elementor-position-left .elementor-icon-box-icon {
+    margin-right: 9px;
+}
+
+.elementor-8 .elementor-element.elementor-element-c44b008.elementor-position-top .elementor-icon-box-icon {
+    margin-bottom: 9px;
+}
+
+.elementor-8 .elementor-element.elementor-element-c44b008 .elementor-icon {
+    font-size: 35px;
+}
+
+.elementor-8 .elementor-element.elementor-element-c44b008 .elementor-icon i {
+    transform: rotate(0deg);
+}
+
+.elementor-8 .elementor-element.elementor-element-c44b008 .elementor-icon-box-title {
+    margin-bottom: 10px;
+}
+
+.elementor-8 .elementor-element.elementor-element-c44b008 .elementor-icon-box-content .elementor-icon-box-title {
+    color: #29293A;
+}
+
+.elementor-8 .elementor-element.elementor-element-c44b008 .elementor-icon-box-content .elementor-icon-box-title, .elementor-8 .elementor-element.elementor-element-c44b008 .elementor-icon-box-content .elementor-icon-box-title a {
+    font-family: "Lato", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.375em;
+    letter-spacing: 0.48px;
+}
+
+.elementor-8 .elementor-element.elementor-element-c44b008 .elementor-icon-box-content .elementor-icon-box-description {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.64em;
+    letter-spacing: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-c44b008 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-3eb6e3e.elementor-view-stacked .elementor-icon {
+    background-color: #916FBC;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.elementor-8 .elementor-element.elementor-element-3eb6e3e.elementor-view-framed .elementor-icon, .elementor-8 .elementor-element.elementor-element-3eb6e3e.elementor-view-default .elementor-icon {
+    fill: #916FBC;
+    color: #916FBC;
+    border-color: #916FBC;
+}
+
+.elementor-8 .elementor-element.elementor-element-3eb6e3e.elementor-view-framed .elementor-icon {
+    background-color: #FFFFFF;
+}
+
+.elementor-8 .elementor-element.elementor-element-3eb6e3e.elementor-view-stacked .elementor-icon:hover {
+    background-color: #D35EBE;
+}
+
+.elementor-8 .elementor-element.elementor-element-3eb6e3e.elementor-view-framed .elementor-icon:hover, .elementor-8 .elementor-element.elementor-element-3eb6e3e.elementor-view-default .elementor-icon:hover {
+    fill: #D35EBE;
+    color: #D35EBE;
+    border-color: #D35EBE;
+}
+
+.elementor-8 .elementor-element.elementor-element-3eb6e3e.elementor-position-right .elementor-icon-box-icon {
+    margin-left: 9px;
+}
+
+.elementor-8 .elementor-element.elementor-element-3eb6e3e.elementor-position-left .elementor-icon-box-icon {
+    margin-right: 9px;
+}
+
+.elementor-8 .elementor-element.elementor-element-3eb6e3e.elementor-position-top .elementor-icon-box-icon {
+    margin-bottom: 9px;
+}
+
+.elementor-8 .elementor-element.elementor-element-3eb6e3e .elementor-icon {
+    font-size: 35px;
+}
+
+.elementor-8 .elementor-element.elementor-element-3eb6e3e .elementor-icon i {
+    transform: rotate(0deg);
+}
+
+.elementor-8 .elementor-element.elementor-element-3eb6e3e .elementor-icon-box-title {
+    margin-bottom: 10px;
+}
+
+.elementor-8 .elementor-element.elementor-element-3eb6e3e .elementor-icon-box-content .elementor-icon-box-title {
+    color: #29293A;
+}
+
+.elementor-8 .elementor-element.elementor-element-3eb6e3e .elementor-icon-box-content .elementor-icon-box-title, .elementor-8 .elementor-element.elementor-element-3eb6e3e .elementor-icon-box-content .elementor-icon-box-title a {
+    font-family: "Lato", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.375em;
+    letter-spacing: 0.48px;
+}
+
+.elementor-8 .elementor-element.elementor-element-3eb6e3e .elementor-icon-box-content .elementor-icon-box-description {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.64em;
+    letter-spacing: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-3eb6e3e > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-b078e78:not(.elementor-motion-effects-element-type-background), .elementor-8 .elementor-element.elementor-element-b078e78 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url("https://ld-wp73.template-help.com/wordpress/prod_14770/v1/wp-content/uploads/2020/11/bg-spa-2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-8 .elementor-element.elementor-element-b078e78 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 096px 0px 093px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-b078e78 > .elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-8 .elementor-element.elementor-element-746e416 > .elementor-container {
+    max-width: 1200px;
+}
+
+.elementor-8 .elementor-element.elementor-element-114af3c > .elementor-element-populated {
+    padding: 0px 015px 0px 015px;
+}
+
+.elementor-8 .elementor-element.elementor-element-6a6c3fc .jet-headline {
+    align-items: flex-start;
+}
+
+.elementor-8 .elementor-element.elementor-element-6a6c3fc .jet-headline > .jet-headline__link {
+    align-items: flex-start;
+}
+
+.elementor-8 .elementor-element.elementor-element-6a6c3fc .jet-headline__first {
+    align-self: flex-start;
+    padding: 0px 0px 012px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-6a6c3fc .jet-headline__first .jet-headline__label {
+    text-align: left;
+    color: #FFFFFF;
+    font-family: "Lato", Sans-serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 1em;
+    letter-spacing: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-6a6c3fc .jet-headline__second {
+    align-self: flex-start;
+}
+
+.elementor-8 .elementor-element.elementor-element-6a6c3fc .jet-headline__second .jet-headline__label {
+    text-align: left;
+    color: #FFFFFF;
+    font-family: "Lato", Sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: 0.7px;
+}
+
+.elementor-8 .elementor-element.elementor-element-6a6c3fc > .elementor-widget-container {
+    margin: 0px 0px -6px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-6a6c3fc > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-834ddcd .elementor-text-editor {
+    text-align: left;
+}
+
+.elementor-8 .elementor-element.elementor-element-834ddcd {
+    color: #FFFFFF;
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6em;
+    letter-spacing: 0.3px;
+}
+
+.elementor-8 .elementor-element.elementor-element-834ddcd > .elementor-widget-container {
+    margin: 0px 0px -3px 0px;
+    padding: 0px 100px 0px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-834ddcd > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-e262c2b .jet-button__instance {
+    width: 192px;
+    height: 54px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e262c2b .jet-button__container {
+    justify-content: flex-start;
+}
+
+.elementor-8 .elementor-element.elementor-element-e262c2b .jet-button__instance:hover {
+    border-radius: 25px 25px 25px 25px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e262c2b .jet-button__plane-normal {
+    background-color: #916FBC;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e262c2b .jet-button__plane-hover {
+    background-color: #D162BD;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e262c2b .jet-button__state-normal .jet-button__label {
+    text-align: left;
+}
+
+.elementor-8 .elementor-element.elementor-element-e262c2b .jet-button__state-hover .jet-button__label {
+    text-align: left;
+}
+
+.elementor-8 .elementor-element.elementor-element-e262c2b .jet-button__state-normal .jet-button__label {
+    font-family: "Lato", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.elementor-8 .elementor-element.elementor-element-e262c2b .jet-button__state-hover .jet-button__label {
+    font-family: "Lato", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.elementor-8 .elementor-element.elementor-element-e262c2b > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-746e416:not(.elementor-motion-effects-element-type-background), .elementor-8 .elementor-element.elementor-element-746e416 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url("https://ld-wp73.template-help.com/wordpress/prod_14770/v1/wp-content/uploads/2020/11/bg-spa-3.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-8 .elementor-element.elementor-element-746e416 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 98px 0px 0123px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-746e416 > .elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-8 .elementor-element.elementor-element-b4c26d9 > .elementor-container {
+    max-width: 1200px;
+}
+
+.elementor-8 .elementor-element.elementor-element-7ec8b68 > .elementor-element-populated {
+    padding: 0px 015px 0px 015px;
+}
+
+.elementor-8 .elementor-element.elementor-element-27e10f2 .elementor-text-editor {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-27e10f2 {
+    color: #916FBC;
+    font-family: "Dancing Script", Sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1em;
+    letter-spacing: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-27e10f2 > .elementor-widget-container {
+    margin: 0px 0px -34px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-27e10f2 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-29f58bc {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-29f58bc .elementor-heading-title {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: 0.7px;
+}
+
+.elementor-8 .elementor-element.elementor-element-29f58bc > .elementor-widget-container {
+    margin: 0px 0px 06px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-29f58bc > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-f6067ad > .elementor-widget-container {
+    margin: 0px 0px 40px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-f6067ad > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-5274031 .jet-portfolio__inner {
+    margin: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-5274031 .jet-portfolio__list {
+    margin: -0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-5274031 .jet-portfolio__cover .jet-elements-icon {
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+.elementor-8 .elementor-element.elementor-element-5274031 .jet-portfolio__cover .jet-elements-icon svg {
+    fill: #FFFFFF;
+}
+
+.elementor-8 .elementor-element.elementor-element-5274031 .jet-portfolio__cover .jet-elements-icon:before {
+    font-size: 40px;
+}
+
+.elementor-8 .elementor-element.elementor-element-5274031 .jet-portfolio__cover {
+    background-color: #916FBCB3;
+}
+
+.elementor-8 .elementor-element.elementor-element-5274031 .jet-portfolio__filter {
+    justify-content: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-5274031 .jet-portfolio__title {
+    text-align: center;
+    order: 1;
+}
+
+.elementor-8 .elementor-element.elementor-element-5274031 .jet-portfolio__category {
+    text-align: center;
+    order: 2;
+}
+
+.elementor-8 .elementor-element.elementor-element-5274031 .jet-portfolio__desc {
+    text-align: center;
+    order: 3;
+}
+
+.elementor-8 .elementor-element.elementor-element-5274031 .jet-portfolio__button {
+    align-self: center;
+    text-align: center;
+    order: 4;
+}
+
+.elementor-8 .elementor-element.elementor-element-5274031 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-b4c26d9 {
+    padding: 095px 0px 60px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-49e539d > .elementor-container {
+    max-width: 1200px;
+}
+
+.elementor-8 .elementor-element.elementor-element-4221b79 > .elementor-element-populated {
+    padding: 0% 014% 0% 40%;
+}
+
+.elementor-8 .elementor-element.elementor-element-7b7135b .elementor-text-editor {
+    text-align: left;
+}
+
+.elementor-8 .elementor-element.elementor-element-7b7135b {
+    color: #916FBC;
+    font-family: "Dancing Script", Sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1em;
+    letter-spacing: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-7b7135b > .elementor-widget-container {
+    margin: 0px 0px -34px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-7b7135b > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-4a245bf {
+    text-align: left;
+}
+
+.elementor-8 .elementor-element.elementor-element-4a245bf .elementor-heading-title {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: 0.7px;
+}
+
+.elementor-8 .elementor-element.elementor-element-4a245bf > .elementor-widget-container {
+    margin: 0px 0px 26px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-4a245bf > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-91cc028 .elementor-text-editor {
+    text-align: left;
+}
+
+.elementor-8 .elementor-element.elementor-element-91cc028 {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5em;
+    letter-spacing: 0.3px;
+}
+
+.elementor-8 .elementor-element.elementor-element-91cc028 > .elementor-widget-container {
+    margin: 0px 0px -14px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-91cc028 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-642eed7 .elementor-text-editor {
+    text-align: left;
+}
+
+.elementor-8 .elementor-element.elementor-element-642eed7 {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5em;
+    letter-spacing: 0.3px;
+}
+
+.elementor-8 .elementor-element.elementor-element-642eed7 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-3844ee5 .jet-button__instance {
+    width: 192px;
+    height: 54px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.elementor-8 .elementor-element.elementor-element-3844ee5 .jet-button__container {
+    justify-content: flex-start;
+}
+
+.elementor-8 .elementor-element.elementor-element-3844ee5 .jet-button__instance:hover {
+    border-radius: 25px 25px 25px 25px;
+}
+
+.elementor-8 .elementor-element.elementor-element-3844ee5 .jet-button__plane-normal {
+    background-color: #916FBC;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.elementor-8 .elementor-element.elementor-element-3844ee5 .jet-button__plane-hover {
+    background-color: #D162BD;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.elementor-8 .elementor-element.elementor-element-3844ee5 .jet-button__state-normal .jet-button__label {
+    text-align: left;
+}
+
+.elementor-8 .elementor-element.elementor-element-3844ee5 .jet-button__state-hover .jet-button__label {
+    text-align: left;
+}
+
+.elementor-8 .elementor-element.elementor-element-3844ee5 .jet-button__state-normal .jet-button__label {
+    font-family: "Lato", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.elementor-8 .elementor-element.elementor-element-3844ee5 .jet-button__state-hover .jet-button__label {
+    font-family: "Lato", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.elementor-8 .elementor-element.elementor-element-3844ee5 > .elementor-widget-container {
+    margin: 05px 0px 0px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-3844ee5 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-6afd734 .elementor-text-editor {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-6afd734 {
+    color: #916FBC;
+    font-family: "Dancing Script", Sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1em;
+    letter-spacing: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-6afd734 > .elementor-widget-container {
+    margin: 0px 0px -34px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-6afd734 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-543a0ca {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-543a0ca .elementor-heading-title {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: 0.7px;
+}
+
+.elementor-8 .elementor-element.elementor-element-543a0ca > .elementor-widget-container {
+    margin: 0px 0px -2px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-543a0ca > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-b33b697 .jet-testimonials__figure {
+    order: 3;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.elementor-8 .elementor-element.elementor-element-b33b697 .jet-testimonials__icon {
+    order: 1;
+    align-self: center;
+    font-size: 23px;
+}
+
+.elementor-8 .elementor-element.elementor-element-b33b697 .jet-testimonials__comment {
+    order: 2;
+    align-self: center;
+    text-align: center;
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5em;
+    letter-spacing: 0.4px;
+    width: 380px;
+    background-color: #02010100;
+    padding: 0px 0px 023px 0px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.elementor-8 .elementor-element.elementor-element-b33b697 .jet-testimonials__name {
+    order: 4;
+    align-self: center;
+    text-align: center;
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.64em;
+    letter-spacing: 0px;
+    margin: 14px 0px 04px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-b33b697 .jet-testimonials__content {
+    justify-content: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-b33b697 .jet-testimonials__tag-img {
+    width: 70px;
+    height: 70px;
+}
+
+.elementor-8 .elementor-element.elementor-element-b33b697 .jet-testimonials__icon i {
+    color: #916FBC;
+    font-size: 23px;
+}
+
+.elementor-8 .elementor-element.elementor-element-b33b697 .jet-testimonials__icon svg {
+    fill: #916FBC;
+}
+
+.elementor-8 .elementor-element.elementor-element-b33b697 .jet-testimonials__icon .jet-testimonials__icon-inner {
+    margin: 0px 0px -14px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-b33b697 .jet-testimonials__title {
+    text-align: center;
+    align-self: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-b33b697 .jet-testimonials__position {
+    align-self: center;
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-b33b697 .jet-testimonials__date {
+    align-self: center;
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-b33b697 .jet-testimonials__rating {
+    font-size: 20px;
+}
+
+body:not(.rtl) .elementor-8 .elementor-element.elementor-element-b33b697 i:not(:last-of-type) {
+    margin-right: 7px;
+}
+
+body.rtl .elementor-8 .elementor-element.elementor-element-b33b697 i:not(:last-of-type) {
+    margin-left: 7px;
+}
+
+.elementor-8 .elementor-element.elementor-element-b33b697 .jet-testimonials__instance .jet-slick-dots {
+    justify-content: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-b33b697 .jet-testimonials__instance .jet-slick-dots li {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.elementor-8 .elementor-element.elementor-element-b33b697 .jet-testimonials__instance .jet-slick-dots li span {
+    background-color: #D4D4D8;
+    width: 10px;
+    height: 10px;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.elementor-8 .elementor-element.elementor-element-b33b697 .jet-testimonials__instance .jet-slick-dots li span:hover {
+    background-color: #D162BD;
+}
+
+.elementor-8 .elementor-element.elementor-element-b33b697 .jet-testimonials__instance .jet-slick-dots li.slick-active span {
+    background-color: #916FBC;
+    width: 10px;
+    height: 10px;
+    border-radius: 50% 50% 50% 50%;
+    box-shadow: 0px 0px 0px 3px #916FBC;
+}
+
+.elementor-8 .elementor-element.elementor-element-b33b697 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-49e539d:not(.elementor-motion-effects-element-type-background), .elementor-8 .elementor-element.elementor-element-49e539d > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url("https://ld-wp73.template-help.com/wordpress/prod_14770/v1/wp-content/uploads/2020/11/bg-spa-4.png");
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.elementor-8 .elementor-element.elementor-element-49e539d {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 033px 0px 0112px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-49e539d > .elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-8 .elementor-element.elementor-element-59d4013 > .elementor-container {
+    max-width: 1200px;
+}
+
+.elementor-8 .elementor-element.elementor-element-21a3f19 .elementor-text-editor {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-21a3f19 {
+    color: #916FBC;
+    font-family: "Dancing Script", Sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1em;
+    letter-spacing: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-21a3f19 > .elementor-widget-container {
+    margin: 0px 0px -34px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-21a3f19 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-796ba89 {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-796ba89 .elementor-heading-title {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: 0.7px;
+}
+
+.elementor-8 .elementor-element.elementor-element-796ba89 > .elementor-widget-container {
+    margin: 0px 0px 06px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-796ba89 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-0e2586b > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-59d4013:not(.elementor-motion-effects-element-type-background), .elementor-8 .elementor-element.elementor-element-59d4013 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #F3F3F9;
+}
+
+.elementor-8 .elementor-element.elementor-element-59d4013 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 100px 0px 041px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-59d4013 > .elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-8 .elementor-element.elementor-element-b343e2a > .elementor-container {
+    max-width: 1200px;
+}
+
+.elementor-8 .elementor-element.elementor-element-b69fb13 .jet-team-member__image {
+    width: 170px;
+    height: 170px;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.elementor-8 .elementor-element.elementor-element-b69fb13 .jet-team-member__figure {
+    width: 170px;
+    height: 170px;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.elementor-8 .elementor-element.elementor-element-b69fb13 .jet-team-member__name .jet-team-member__name-first {
+    color: #916FBC;
+    font-family: "Lato", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.37em;
+    letter-spacing: 0.5px;
+}
+
+.elementor-8 .elementor-element.elementor-element-b69fb13 .jet-team-member__name {
+    margin: 22px 0px 05px 0px;
+    text-align: center;
+    order: 1;
+}
+
+.elementor-8 .elementor-element.elementor-element-b69fb13 .jet-team-member__position {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.64em;
+    letter-spacing: 0px;
+    align-self: center;
+    text-align: center;
+    order: 2;
+}
+
+.elementor-8 .elementor-element.elementor-element-b69fb13 .jet-team-member__desc {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.64em;
+    letter-spacing: 0px;
+    align-self: center;
+    text-align: center;
+    order: 3;
+}
+
+.elementor-8 .elementor-element.elementor-element-b69fb13 .jet-team-member__socials {
+    align-self: center;
+    order: 4;
+}
+
+.elementor-8 .elementor-element.elementor-element-b69fb13 .jet-team-member__socials-icon .jet-elements-icon {
+    color: #C3C3C9;
+    font-size: 20px;
+}
+
+.elementor-8 .elementor-element.elementor-element-b69fb13 .jet-team-member__socials-icon:hover .jet-elements-icon {
+    color: #916FBC;
+}
+
+.elementor-8 .elementor-element.elementor-element-b69fb13 .jet-team-member__button-container {
+    justify-content: center;
+    order: 5;
+}
+
+.elementor-8 .elementor-element.elementor-element-b69fb13 .jet-team-member__cover {
+    justify-content: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-b69fb13 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-8cb499a .jet-team-member__image {
+    width: 170px;
+    height: 170px;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.elementor-8 .elementor-element.elementor-element-8cb499a .jet-team-member__figure {
+    width: 170px;
+    height: 170px;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.elementor-8 .elementor-element.elementor-element-8cb499a .jet-team-member__name .jet-team-member__name-first {
+    color: #916FBC;
+    font-family: "Lato", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.37em;
+    letter-spacing: 0.5px;
+}
+
+.elementor-8 .elementor-element.elementor-element-8cb499a .jet-team-member__name {
+    margin: 22px 0px 05px 0px;
+    text-align: center;
+    order: 1;
+}
+
+.elementor-8 .elementor-element.elementor-element-8cb499a .jet-team-member__position {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.64em;
+    letter-spacing: 0px;
+    align-self: center;
+    text-align: center;
+    order: 2;
+}
+
+.elementor-8 .elementor-element.elementor-element-8cb499a .jet-team-member__desc {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.64em;
+    letter-spacing: 0px;
+    align-self: center;
+    text-align: center;
+    order: 3;
+}
+
+.elementor-8 .elementor-element.elementor-element-8cb499a .jet-team-member__socials {
+    align-self: center;
+    order: 4;
+}
+
+.elementor-8 .elementor-element.elementor-element-8cb499a .jet-team-member__socials-icon .jet-elements-icon {
+    color: #C3C3C9;
+    font-size: 20px;
+}
+
+.elementor-8 .elementor-element.elementor-element-8cb499a .jet-team-member__socials-icon:hover .jet-elements-icon {
+    color: #916FBC;
+}
+
+.elementor-8 .elementor-element.elementor-element-8cb499a .jet-team-member__button-container {
+    justify-content: center;
+    order: 5;
+}
+
+.elementor-8 .elementor-element.elementor-element-8cb499a .jet-team-member__cover {
+    justify-content: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-8cb499a > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-1b56a1f .jet-team-member__image {
+    width: 170px;
+    height: 170px;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.elementor-8 .elementor-element.elementor-element-1b56a1f .jet-team-member__figure {
+    width: 170px;
+    height: 170px;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.elementor-8 .elementor-element.elementor-element-1b56a1f .jet-team-member__name .jet-team-member__name-first {
+    color: #916FBC;
+    font-family: "Lato", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.37em;
+    letter-spacing: 0.5px;
+}
+
+.elementor-8 .elementor-element.elementor-element-1b56a1f .jet-team-member__name {
+    margin: 22px 0px 05px 0px;
+    text-align: center;
+    order: 1;
+}
+
+.elementor-8 .elementor-element.elementor-element-1b56a1f .jet-team-member__position {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.64em;
+    letter-spacing: 0px;
+    align-self: center;
+    text-align: center;
+    order: 2;
+}
+
+.elementor-8 .elementor-element.elementor-element-1b56a1f .jet-team-member__desc {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.64em;
+    letter-spacing: 0px;
+    align-self: center;
+    text-align: center;
+    order: 3;
+}
+
+.elementor-8 .elementor-element.elementor-element-1b56a1f .jet-team-member__socials {
+    align-self: center;
+    order: 4;
+}
+
+.elementor-8 .elementor-element.elementor-element-1b56a1f .jet-team-member__socials-icon .jet-elements-icon {
+    color: #C3C3C9;
+    font-size: 20px;
+}
+
+.elementor-8 .elementor-element.elementor-element-1b56a1f .jet-team-member__socials-icon:hover .jet-elements-icon {
+    color: #916FBC;
+}
+
+.elementor-8 .elementor-element.elementor-element-1b56a1f .jet-team-member__button-container {
+    justify-content: center;
+    order: 5;
+}
+
+.elementor-8 .elementor-element.elementor-element-1b56a1f .jet-team-member__cover {
+    justify-content: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-1b56a1f > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-b16089c .jet-team-member__image {
+    width: 170px;
+    height: 170px;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.elementor-8 .elementor-element.elementor-element-b16089c .jet-team-member__figure {
+    width: 170px;
+    height: 170px;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.elementor-8 .elementor-element.elementor-element-b16089c .jet-team-member__name .jet-team-member__name-first {
+    color: #916FBC;
+    font-family: "Lato", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.37em;
+    letter-spacing: 0.5px;
+}
+
+.elementor-8 .elementor-element.elementor-element-b16089c .jet-team-member__name {
+    margin: 22px 0px 05px 0px;
+    text-align: center;
+    order: 1;
+}
+
+.elementor-8 .elementor-element.elementor-element-b16089c .jet-team-member__position {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.64em;
+    letter-spacing: 0px;
+    align-self: center;
+    text-align: center;
+    order: 2;
+}
+
+.elementor-8 .elementor-element.elementor-element-b16089c .jet-team-member__desc {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.64em;
+    letter-spacing: 0px;
+    align-self: center;
+    text-align: center;
+    order: 3;
+}
+
+.elementor-8 .elementor-element.elementor-element-b16089c .jet-team-member__socials {
+    align-self: center;
+    order: 4;
+}
+
+.elementor-8 .elementor-element.elementor-element-b16089c .jet-team-member__socials-icon .jet-elements-icon {
+    color: #C3C3C9;
+    font-size: 20px;
+}
+
+.elementor-8 .elementor-element.elementor-element-b16089c .jet-team-member__socials-icon:hover .jet-elements-icon {
+    color: #916FBC;
+}
+
+.elementor-8 .elementor-element.elementor-element-b16089c .jet-team-member__button-container {
+    justify-content: center;
+    order: 5;
+}
+
+.elementor-8 .elementor-element.elementor-element-b16089c .jet-team-member__cover {
+    justify-content: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-b16089c > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-b343e2a:not(.elementor-motion-effects-element-type-background), .elementor-8 .elementor-element.elementor-element-b343e2a > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #F3F3F9;
+}
+
+.elementor-8 .elementor-element.elementor-element-b343e2a {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 0px 0px 83px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-b343e2a > .elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-8 .elementor-element.elementor-element-982336e > .elementor-container {
+    max-width: 1200px;
+}
+
+.elementor-8 .elementor-element.elementor-element-ed7c82b .elementor-text-editor {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-ed7c82b {
+    color: #FFFFFF;
+    font-family: "Dancing Script", Sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1em;
+    letter-spacing: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-ed7c82b > .elementor-widget-container {
+    margin: 0px 0px -30px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-ed7c82b > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-378150c {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-378150c .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Lato", Sans-serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 1em;
+    letter-spacing: 0.7px;
+}
+
+.elementor-8 .elementor-element.elementor-element-378150c > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-e49b26d .elementor-text-editor {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-e49b26d {
+    color: #FFFFFF;
+    font-family: "Lato", Sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: 0.7px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e49b26d > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-6dabdae .jet-button__instance {
+    width: 192px;
+    height: 54px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.elementor-8 .elementor-element.elementor-element-6dabdae .jet-button__container {
+    justify-content: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-6dabdae .jet-button__instance:hover {
+    border-radius: 25px 25px 25px 25px;
+}
+
+.elementor-8 .elementor-element.elementor-element-6dabdae .jet-button__plane-normal {
+    background-color: #D162BD;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.elementor-8 .elementor-element.elementor-element-6dabdae .jet-button__plane-hover {
+    background-color: #916FBC;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.elementor-8 .elementor-element.elementor-element-6dabdae .jet-button__state-normal .jet-button__label {
+    text-align: left;
+}
+
+.elementor-8 .elementor-element.elementor-element-6dabdae .jet-button__state-hover .jet-button__label {
+    text-align: left;
+}
+
+.elementor-8 .elementor-element.elementor-element-6dabdae .jet-button__state-normal .jet-button__label {
+    font-family: "Lato", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.elementor-8 .elementor-element.elementor-element-6dabdae .jet-button__state-hover .jet-button__label {
+    font-family: "Lato", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.elementor-8 .elementor-element.elementor-element-6dabdae > .elementor-widget-container {
+    margin: -6px 0px 0px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-6dabdae > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-982336e:not(.elementor-motion-effects-element-type-background), .elementor-8 .elementor-element.elementor-element-982336e > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url("https://ld-wp73.template-help.com/wordpress/prod_14770/v1/wp-content/uploads/2020/11/bg-spa-5.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-8 .elementor-element.elementor-element-982336e {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 0115px 0px 0122px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-982336e > .elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-8 .elementor-element.elementor-element-d6b2719 > .elementor-container {
+    max-width: 1200px;
+}
+
+.elementor-8 .elementor-element.elementor-element-6191001 .elementor-element-populated a:hover {
+    color: #D35EBE;
+}
+
+.elementor-8 .elementor-element.elementor-element-6191001 > .elementor-element-populated {
+    padding: 0px 015px 0px 015px;
+}
+
+.elementor-8 .elementor-element.elementor-element-f40eb4d .elementor-text-editor {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-f40eb4d {
+    color: #916FBC;
+    font-family: "Dancing Script", Sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1em;
+    letter-spacing: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-f40eb4d > .elementor-widget-container {
+    margin: 0px 0px -34px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-f40eb4d > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-ea9934a {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-ea9934a .elementor-heading-title {
+    color: #29293A;
+    font-family: "Lato", Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: 0.7px;
+}
+
+.elementor-8 .elementor-element.elementor-element-ea9934a > .elementor-widget-container {
+    margin: 0px 0px 08px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-ea9934a > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-a160769 > .elementor-widget-container {
+    margin: 0px 0px 019px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-a160769 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-5aa65e5.elementor-view-stacked .elementor-icon {
+    background-color: #D35EBE;
+}
+
+.elementor-8 .elementor-element.elementor-element-5aa65e5.elementor-view-framed .elementor-icon, .elementor-8 .elementor-element.elementor-element-5aa65e5.elementor-view-default .elementor-icon {
+    fill: #D35EBE;
+    color: #D35EBE;
+    border-color: #D35EBE;
+}
+
+.elementor-8 .elementor-element.elementor-element-5aa65e5.elementor-position-right .elementor-icon-box-icon {
+    margin-left: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-5aa65e5.elementor-position-left .elementor-icon-box-icon {
+    margin-right: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-5aa65e5.elementor-position-top .elementor-icon-box-icon {
+    margin-bottom: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-5aa65e5 .elementor-icon {
+    font-size: 22px;
+}
+
+.elementor-8 .elementor-element.elementor-element-5aa65e5 .elementor-icon i {
+    transform: rotate(0deg);
+}
+
+.elementor-8 .elementor-element.elementor-element-5aa65e5 .elementor-icon-box-title {
+    margin-bottom: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-5aa65e5 .elementor-icon-box-content .elementor-icon-box-title {
+    color: #29293A;
+}
+
+.elementor-8 .elementor-element.elementor-element-5aa65e5 .elementor-icon-box-content .elementor-icon-box-title, .elementor-8 .elementor-element.elementor-element-5aa65e5 .elementor-icon-box-content .elementor-icon-box-title a {
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.64em;
+    letter-spacing: 0.3px;
+}
+
+.elementor-8 .elementor-element.elementor-element-5aa65e5 .elementor-icon-box-content .elementor-icon-box-description {
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.64em;
+    letter-spacing: 0.3px;
+}
+
+.elementor-8 .elementor-element.elementor-element-5aa65e5 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-ec534f0.elementor-view-stacked .elementor-icon {
+    background-color: #D35EBE;
+}
+
+.elementor-8 .elementor-element.elementor-element-ec534f0.elementor-view-framed .elementor-icon, .elementor-8 .elementor-element.elementor-element-ec534f0.elementor-view-default .elementor-icon {
+    fill: #D35EBE;
+    color: #D35EBE;
+    border-color: #D35EBE;
+}
+
+.elementor-8 .elementor-element.elementor-element-ec534f0.elementor-position-right .elementor-icon-box-icon {
+    margin-left: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-ec534f0.elementor-position-left .elementor-icon-box-icon {
+    margin-right: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-ec534f0.elementor-position-top .elementor-icon-box-icon {
+    margin-bottom: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-ec534f0 .elementor-icon {
+    font-size: 22px;
+}
+
+.elementor-8 .elementor-element.elementor-element-ec534f0 .elementor-icon i {
+    transform: rotate(0deg);
+}
+
+.elementor-8 .elementor-element.elementor-element-ec534f0 .elementor-icon-box-title {
+    margin-bottom: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-ec534f0 .elementor-icon-box-content .elementor-icon-box-title {
+    color: #29293A;
+}
+
+.elementor-8 .elementor-element.elementor-element-ec534f0 .elementor-icon-box-content .elementor-icon-box-title, .elementor-8 .elementor-element.elementor-element-ec534f0 .elementor-icon-box-content .elementor-icon-box-title a {
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.64em;
+    letter-spacing: 0.3px;
+}
+
+.elementor-8 .elementor-element.elementor-element-ec534f0 .elementor-icon-box-content .elementor-icon-box-description {
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.64em;
+    letter-spacing: 0.3px;
+}
+
+.elementor-8 .elementor-element.elementor-element-ec534f0 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-2c1bec1.elementor-view-stacked .elementor-icon {
+    background-color: #D35EBE;
+}
+
+.elementor-8 .elementor-element.elementor-element-2c1bec1.elementor-view-framed .elementor-icon, .elementor-8 .elementor-element.elementor-element-2c1bec1.elementor-view-default .elementor-icon {
+    fill: #D35EBE;
+    color: #D35EBE;
+    border-color: #D35EBE;
+}
+
+.elementor-8 .elementor-element.elementor-element-2c1bec1.elementor-position-right .elementor-icon-box-icon {
+    margin-left: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-2c1bec1.elementor-position-left .elementor-icon-box-icon {
+    margin-right: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-2c1bec1.elementor-position-top .elementor-icon-box-icon {
+    margin-bottom: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-2c1bec1 .elementor-icon {
+    font-size: 22px;
+}
+
+.elementor-8 .elementor-element.elementor-element-2c1bec1 .elementor-icon i {
+    transform: rotate(0deg);
+}
+
+.elementor-8 .elementor-element.elementor-element-2c1bec1 .elementor-icon-box-title {
+    margin-bottom: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-2c1bec1 .elementor-icon-box-content .elementor-icon-box-title {
+    color: #29293A;
+}
+
+.elementor-8 .elementor-element.elementor-element-2c1bec1 .elementor-icon-box-content .elementor-icon-box-title, .elementor-8 .elementor-element.elementor-element-2c1bec1 .elementor-icon-box-content .elementor-icon-box-title a {
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.64em;
+    letter-spacing: 0.3px;
+}
+
+.elementor-8 .elementor-element.elementor-element-2c1bec1 .elementor-icon-box-content .elementor-icon-box-description {
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.64em;
+    letter-spacing: 0.3px;
+}
+
+.elementor-8 .elementor-element.elementor-element-2c1bec1 > .elementor-widget-container {
+    margin: 0px 0px -10px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-2c1bec1 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-50c36f7 {
+    --grid-template-columns: repeat(0, auto);
+    --icon-size: 22px;
+    --grid-column-gap: 5px;
+    --grid-row-gap: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-50c36f7 .elementor-widget-container {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-50c36f7 .elementor-social-icon {
+    background-color: #FFFFFF;
+}
+
+.elementor-8 .elementor-element.elementor-element-50c36f7 .elementor-social-icon i {
+    color: #C3C3C9;
+}
+
+.elementor-8 .elementor-element.elementor-element-50c36f7 .elementor-social-icon svg {
+    fill: #C3C3C9;
+}
+
+.elementor-8 .elementor-element.elementor-element-50c36f7 .elementor-social-icon:hover i {
+    color: #D35EBE;
+}
+
+.elementor-8 .elementor-element.elementor-element-50c36f7 .elementor-social-icon:hover svg {
+    fill: #D35EBE;
+}
+
+.elementor-8 .elementor-element.elementor-element-50c36f7 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-2f4019e > .elementor-element-populated {
+    padding: 0px 015px 0px 015px;
+}
+
+.elementor-8 .elementor-element.elementor-element-d4fa62e iframe {
+    height: 420px;
+}
+
+.elementor-8 .elementor-element.elementor-element-d4fa62e > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-d6b2719 {
+    margin-top: 0px;
+    margin-bottom: -30px;
+    padding: 100px 0px 40px 0px;
+}
+
+@media (min-width: 768px) {
+    .elementor-8 .elementor-element.elementor-element-4221b79 {
+        width: 66.33%;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-4d42419 {
+        width: 33.67%;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .elementor-8 .elementor-element.elementor-element-3f1f2eb {
+        width: 50%;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-cfbc20f {
+        width: 50%;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-741d31e {
+        width: 50%;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-ae0dc01 {
+        width: 50%;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-496a171 {
+        width: 100%;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-d109add {
+        width: 100%;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-4221b79 {
+        width: 50%;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-4d42419 {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .elementor-8 .elementor-element.elementor-element-b078e78:not(.elementor-motion-effects-element-type-background), .elementor-8 .elementor-element.elementor-element-b078e78 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        background-attachment: fixed;
+    }
+}
+
+@media (max-width: 1024px) {
+    .elementor-8 .elementor-element.elementor-element-e3bdb51 .jet-slider__title {
+        margin: 65px 0px -28px 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-f79d65c {
+        margin-top: -209px;
+        margin-bottom: 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-6e7b77a {
+        padding: 77px 0px 026px 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-6247ce6 {
+        padding: 024px 0px 80px 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-b078e78 {
+        padding: 77px 0px 072px 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-746e416 {
+        padding: 73px 0px 80px 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-b4c26d9 {
+        padding: 077px 0px 80px 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-4221b79 > .elementor-element-populated {
+        padding: 0px 015px 0px 015px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-4d42419 > .elementor-element-populated {
+        padding: 0px 015px 0px 015px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-b33b697 .jet-testimonials__comment {
+        font-size: 18px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-49e539d:not(.elementor-motion-effects-element-type-background), .elementor-8 .elementor-element.elementor-element-49e539d > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        background-position: -637px 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-59d4013 {
+        padding: 078px 0px 041px 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-b343e2a {
+        padding: 0px 0px 63px 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-982336e {
+        padding: 80px 0px 80px 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-d6b2719 {
+        padding: 80px 0px 67px 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .elementor-8 .elementor-element.elementor-element-e3bdb51 .jet-slider__title {
+        font-size: 60px;
+        margin: -15px 0px -28px 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-e3bdb51 .jet-slider__subtitle {
+        font-size: 28px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-f79d65c {
+        margin-top: -146px;
+        margin-bottom: 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-3f1f2eb > .elementor-element-populated {
+        padding: 0px 015px 30px 015px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-cfbc20f > .elementor-element-populated {
+        padding: 0px 015px 30px 015px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-741d31e > .elementor-element-populated {
+        padding: 0px 015px 30px 015px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-5a9e590 .elementor-icon-box-icon {
+        margin-bottom: 9px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-5a9e590 > .elementor-widget-container {
+        margin: 0px 0px 035px 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-efb44e7 .elementor-icon-box-icon {
+        margin-bottom: 9px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-305425c {
+        padding: 0px 0px 034px 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-c44b008 .elementor-icon-box-icon {
+        margin-bottom: 9px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-c44b008 > .elementor-widget-container {
+        margin: 0px 0px 035px 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-3eb6e3e .elementor-icon-box-icon {
+        margin-bottom: 9px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-6a6c3fc .jet-headline__first {
+        align-self: center;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-6a6c3fc .jet-headline__first .jet-headline__label {
+        text-align: center;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-6a6c3fc .jet-headline__second {
+        align-self: center;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-6a6c3fc .jet-headline__second .jet-headline__label {
+        text-align: center;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-834ddcd .elementor-text-editor {
+        text-align: center;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-834ddcd > .elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-e262c2b .jet-button__container {
+        justify-content: center;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-4221b79 > .elementor-element-populated {
+        padding: 0px 015px 80px 015px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-b33b697 .jet-testimonials__comment {
+        font-size: 20px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-b69fb13 > .elementor-widget-container {
+        margin: 0px 0px 30px 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-8cb499a > .elementor-widget-container {
+        margin: 0px 0px 30px 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-1b56a1f > .elementor-widget-container {
+        margin: 0px 0px 30px 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-378150c .elementor-heading-title {
+        font-size: 40px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-5aa65e5 .elementor-icon-box-icon {
+        margin-bottom: 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-ec534f0 .elementor-icon-box-icon {
+        margin-bottom: 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-2c1bec1 .elementor-icon-box-icon {
+        margin-bottom: 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-50c36f7 > .elementor-widget-container {
+        margin: 0px 0px 40px 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-2f4019e > .elementor-element-populated {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-d6b2719 {
+        padding: 80px 0px 0px 0px;
+    }
+}
+
+.elementor-106 .elementor-element.elementor-element-0150838 > .elementor-container {
+    max-width: 1200px;
+}
+
+.elementor-bc-flex-widget .elementor-106 .elementor-element.elementor-element-71cfb37.elementor-column .elementor-column-wrap {
+    align-items: center;
+}
+
+.elementor-106 .elementor-element.elementor-element-71cfb37.elementor-column.elementor-element[data-element_type="column"] > .elementor-column-wrap.elementor-element-populated > .elementor-widget-wrap {
+    align-content: center;
+    align-items: center;
+}
+
+.elementor-106 .elementor-element.elementor-element-71cfb37 > .elementor-element-populated {
+    padding: 0px 015px 0px 015px;
+}
+
+.elementor-106 .elementor-element.elementor-element-710ed40 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
+    padding-bottom: calc(60px / 2);
+}
+
+.elementor-106 .elementor-element.elementor-element-710ed40 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {
+    margin-top: calc(60px / 2);
+}
+
+.elementor-106 .elementor-element.elementor-element-710ed40 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+    margin-right: calc(60px / 2);
+    margin-left: calc(60px / 2);
+}
+
+.elementor-106 .elementor-element.elementor-element-710ed40 .elementor-icon-list-items.elementor-inline-items {
+    margin-right: calc(-60px / 2);
+    margin-left: calc(-60px / 2);
+}
+
+body.rtl .elementor-106 .elementor-element.elementor-element-710ed40 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    left: calc(-60px / 2);
+}
+
+body:not(.rtl) .elementor-106 .elementor-element.elementor-element-710ed40 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    right: calc(-60px / 2);
+}
+
+.elementor-106 .elementor-element.elementor-element-710ed40 .elementor-icon-list-icon i {
+    color: #D35EBE;
+    font-size: 19px;
+}
+
+.elementor-106 .elementor-element.elementor-element-710ed40 .elementor-icon-list-icon svg {
+    fill: #D35EBE;
+    width: 19px;
+}
+
+.elementor-106 .elementor-element.elementor-element-710ed40 .elementor-icon-list-icon {
+    text-align: left;
+}
+
+.elementor-106 .elementor-element.elementor-element-710ed40 .elementor-icon-list-text {
+    color: #29293A;
+    padding-left: 5px;
+}
+
+.elementor-106 .elementor-element.elementor-element-710ed40 .elementor-icon-list-item, .elementor-106 .elementor-element.elementor-element-710ed40 .elementor-icon-list-item a {
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.44em;
+    letter-spacing: 0.23px;
+}
+
+.elementor-106 .elementor-element.elementor-element-710ed40 > .elementor-widget-container {
+    margin: 0px 60px 0px 0px;
+}
+
+.elementor-106 .elementor-element.elementor-element-710ed40 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-106 .elementor-element.elementor-element-710ed40 {
+    width: auto;
+    max-width: auto;
+}
+
+.elementor-106 .elementor-element.elementor-element-20621a4 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
+    padding-bottom: calc(60px / 2);
+}
+
+.elementor-106 .elementor-element.elementor-element-20621a4 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {
+    margin-top: calc(60px / 2);
+}
+
+.elementor-106 .elementor-element.elementor-element-20621a4 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+    margin-right: calc(60px / 2);
+    margin-left: calc(60px / 2);
+}
+
+.elementor-106 .elementor-element.elementor-element-20621a4 .elementor-icon-list-items.elementor-inline-items {
+    margin-right: calc(-60px / 2);
+    margin-left: calc(-60px / 2);
+}
+
+body.rtl .elementor-106 .elementor-element.elementor-element-20621a4 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    left: calc(-60px / 2);
+}
+
+body:not(.rtl) .elementor-106 .elementor-element.elementor-element-20621a4 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    right: calc(-60px / 2);
+}
+
+.elementor-106 .elementor-element.elementor-element-20621a4 .elementor-icon-list-icon i {
+    color: #D35EBE;
+    font-size: 19px;
+}
+
+.elementor-106 .elementor-element.elementor-element-20621a4 .elementor-icon-list-icon svg {
+    fill: #D35EBE;
+    width: 19px;
+}
+
+.elementor-106 .elementor-element.elementor-element-20621a4 .elementor-icon-list-icon {
+    text-align: left;
+}
+
+.elementor-106 .elementor-element.elementor-element-20621a4 .elementor-icon-list-text {
+    color: #29293A;
+    padding-left: 5px;
+}
+
+.elementor-106 .elementor-element.elementor-element-20621a4 .elementor-icon-list-item, .elementor-106 .elementor-element.elementor-element-20621a4 .elementor-icon-list-item a {
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.44em;
+    letter-spacing: 0.23px;
+}
+
+.elementor-106 .elementor-element.elementor-element-20621a4 > .elementor-widget-container {
+    margin: 0px 60px 0px 0px;
+}
+
+.elementor-106 .elementor-element.elementor-element-20621a4 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-106 .elementor-element.elementor-element-20621a4 {
+    width: auto;
+    max-width: auto;
+}
+
+.elementor-106 .elementor-element.elementor-element-ff913b5 .elementor-icon-list-icon i {
+    color: #D35EBE;
+    font-size: 19px;
+}
+
+.elementor-106 .elementor-element.elementor-element-ff913b5 .elementor-icon-list-icon svg {
+    fill: #D35EBE;
+    width: 19px;
+}
+
+.elementor-106 .elementor-element.elementor-element-ff913b5 .elementor-icon-list-icon {
+    text-align: left;
+}
+
+.elementor-106 .elementor-element.elementor-element-ff913b5 .elementor-icon-list-text {
+    color: #29293A;
+    padding-left: 5px;
+}
+
+.elementor-106 .elementor-element.elementor-element-ff913b5 .elementor-icon-list-item:hover .elementor-icon-list-text {
+    color: #916FBC;
+}
+
+.elementor-106 .elementor-element.elementor-element-ff913b5 .elementor-icon-list-item, .elementor-106 .elementor-element.elementor-element-ff913b5 .elementor-icon-list-item a {
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.44em;
+    letter-spacing: 0.23px;
+}
+
+.elementor-106 .elementor-element.elementor-element-ff913b5 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-106 .elementor-element.elementor-element-ff913b5 {
+    width: auto;
+    max-width: auto;
+}
+
+.elementor-bc-flex-widget .elementor-106 .elementor-element.elementor-element-288bbfe.elementor-column .elementor-column-wrap {
+    align-items: center;
+}
+
+.elementor-106 .elementor-element.elementor-element-288bbfe.elementor-column.elementor-element[data-element_type="column"] > .elementor-column-wrap.elementor-element-populated > .elementor-widget-wrap {
+    align-content: center;
+    align-items: center;
+}
+
+.elementor-106 .elementor-element.elementor-element-288bbfe > .elementor-element-populated {
+    padding: 0px 015px 0px 015px;
+}
+
+.elementor-106 .elementor-element.elementor-element-72c2b94 {
+    --grid-template-columns: repeat(0, auto);
+    --icon-size: 16px;
+    --grid-column-gap: 15px;
+    --grid-row-gap: 0px;
+}
+
+.elementor-106 .elementor-element.elementor-element-72c2b94 .elementor-widget-container {
+    text-align: right;
+}
+
+.elementor-106 .elementor-element.elementor-element-72c2b94 .elementor-social-icon {
+    background-color: #FFFFFF;
+    --icon-padding: 0em;
+}
+
+.elementor-106 .elementor-element.elementor-element-72c2b94 .elementor-social-icon i {
+    color: #939398;
+}
+
+.elementor-106 .elementor-element.elementor-element-72c2b94 .elementor-social-icon svg {
+    fill: #939398;
+}
+
+.elementor-106 .elementor-element.elementor-element-72c2b94 .elementor-social-icon:hover i {
+    color: #916FBC;
+}
+
+.elementor-106 .elementor-element.elementor-element-72c2b94 .elementor-social-icon:hover svg {
+    fill: #916FBC;
+}
+
+.elementor-106 .elementor-element.elementor-element-72c2b94 > .elementor-widget-container {
+    padding: 01px 0px 0px 0px;
+}
+
+.elementor-106 .elementor-element.elementor-element-72c2b94 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-106 .elementor-element.elementor-element-0150838 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 13px 0px 15px 0px;
+    z-index: 2;
+}
+
+.elementor-106 .elementor-element.elementor-element-0150838 > .elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-106 .elementor-element.elementor-element-a2c1252 > .elementor-container {
+    max-width: 1200px;
+}
+
+.elementor-106 .elementor-element.elementor-element-8039d20 > .elementor-element-populated {
+    padding: 0px 015px 0px 015px;
+}
+
+.elementor-106 .elementor-element.elementor-element-68541a9 .jet-logo {
+    justify-content: flex-start;
+}
+
+.elementor-106 .elementor-element.elementor-element-68541a9 > .elementor-widget-container {
+    margin: 27px 299px 35px 0px;
+}
+
+.elementor-106 .elementor-element.elementor-element-68541a9 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-bc-flex-widget .elementor-106 .elementor-element.elementor-element-00f579d.elementor-column .elementor-column-wrap {
+    align-items: center;
+}
+
+.elementor-106 .elementor-element.elementor-element-00f579d.elementor-column.elementor-element[data-element_type="column"] > .elementor-column-wrap.elementor-element-populated > .elementor-widget-wrap {
+    align-content: center;
+    align-items: center;
+}
+
+.elementor-106 .elementor-element.elementor-element-00f579d > .elementor-element-populated {
+    padding: 0px 015px 0px 015px;
+}
+
+.elementor-106 .elementor-element.elementor-element-205d049 .jet-menu {
+    justify-content: stretch !important;
+}
+
+.jet-desktop-menu-active .elementor-106 .elementor-element.elementor-element-205d049 .jet-menu > .jet-menu-item {
+    flex-grow: 1;
+}
+
+.jet-desktop-menu-active .elementor-106 .elementor-element.elementor-element-205d049 .jet-menu > .jet-menu-item > a {
+    justify-content: center;
+}
+
+.elementor-106 .elementor-element.elementor-element-205d049 .jet-menu .jet-menu-item .top-level-link {
+    font-family: "Lato", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.64em;
+    letter-spacing: 0.72px;
+    color: #FFFFFF;
+    border-style: solid;
+    border-width: 0px 0px 02px 0px;
+    border-color: #02010100;
+    padding: 0px 0px 04px 0px;
+}
+
+.elementor-106 .elementor-element.elementor-element-205d049 .jet-menu .jet-menu-item:hover > .top-level-link {
+    border-style: solid;
+    border-width: 0px 0px 02px 0px;
+    border-color: #FFFFFF;
+}
+
+.elementor-106 .elementor-element.elementor-element-205d049 .jet-mobile-menu__toggle .jet-mobile-menu__toggle-icon {
+    color: #FFFFFF;
+}
+
+.elementor-106 .elementor-element.elementor-element-205d049 .jet-mobile-menu__container .jet-mobile-menu__back i {
+    color: #FFFFFF;
+}
+
+.elementor-106 .elementor-element.elementor-element-205d049 .jet-mobile-menu__container .jet-mobile-menu__back svg {
+    color: #FFFFFF;
+}
+
+.elementor-106 .elementor-element.elementor-element-205d049 .jet-mobile-menu__container .jet-mobile-menu__container-inner {
+    background-color: #111111FA;
+}
+
+.elementor-106 .elementor-element.elementor-element-205d049 .jet-mobile-menu__container {
+    z-index: 999;
+}
+
+.elementor-106 .elementor-element.elementor-element-205d049 .jet-mobile-menu-widget .jet-mobile-menu-cover {
+    z-index: calc(999 - 1);
+}
+
+.elementor-106 .elementor-element.elementor-element-205d049 .jet-mobile-menu__item .jet-menu-icon {
+    align-self: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.elementor-106 .elementor-element.elementor-element-205d049 .jet-mobile-menu__item .jet-menu-label {
+    font-family: "Lato", Sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.elementor-106 .elementor-element.elementor-element-205d049 .jet-mobile-menu__item {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-106 .elementor-element.elementor-element-205d049 .jet-mobile-menu__item .jet-menu-badge {
+    align-self: flex-start;
+}
+
+.elementor-106 .elementor-element.elementor-element-205d049 .jet-mobile-menu__item:hover .jet-menu-icon {
+    color: #916FBC;
+}
+
+.elementor-106 .elementor-element.elementor-element-205d049 .jet-mobile-menu__item:hover .jet-menu-label {
+    color: #916FBC;
+}
+
+.elementor-106 .elementor-element.elementor-element-205d049 > .elementor-widget-container {
+    margin: 022px -12.5px 021px 0px;
+}
+
+.elementor-106 .elementor-element.elementor-element-205d049 {
+    z-index: 10;
+}
+
+.elementor-106 .elementor-element.elementor-element-205d049 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-106 .elementor-element.elementor-element-a2c1252:not(.elementor-motion-effects-element-type-background), .elementor-106 .elementor-element.elementor-element-a2c1252 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #93939800;
+}
+
+.elementor-106 .elementor-element.elementor-element-a2c1252 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 05px 0px 0px 0px;
+    z-index: 2;
+}
+
+.elementor-106 .elementor-element.elementor-element-a2c1252 > .elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+@media (min-width: 768px) {
+    .elementor-106 .elementor-element.elementor-element-71cfb37 {
+        width: 85.175%;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-288bbfe {
+        width: 14.781%;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-8039d20 {
+        width: 39.5%;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-00f579d {
+        width: 60.5%;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .elementor-106 .elementor-element.elementor-element-71cfb37 {
+        width: 100%;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-288bbfe {
+        width: 100%;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-8039d20 {
+        width: 100%;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-00f579d {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .elementor-106 .elementor-element.elementor-element-71cfb37.elementor-column > .elementor-column-wrap > .elementor-widget-wrap {
+        justify-content: center;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-710ed40 > .elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-710ed40 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-20621a4 > .elementor-widget-container {
+        margin: 10px 0px 0px 0px;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-20621a4 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-ff913b5 > .elementor-widget-container {
+        margin: 10px 0px 0px 0px;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-ff913b5 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-72c2b94 .elementor-widget-container {
+        text-align: center;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-72c2b94 > .elementor-widget-container {
+        margin: 16px 0px 0px 0px;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-0150838 {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-68541a9 .jet-logo {
+        justify-content: center;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-68541a9 > .elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-205d049 .jet-menu .jet-menu-item .top-level-link {
+        padding: 0px 0px 04px 0px;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-205d049 > .elementor-widget-container {
+        margin: 022px 0px 021px 0px;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-a2c1252 {
+        padding: 29px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .elementor-106 .elementor-element.elementor-element-72c2b94 .elementor-widget-container {
+        text-align: center;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-8039d20 {
+        width: 80%;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-00f579d {
+        width: 20%;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-205d049 .jet-mobile-menu__toggle .jet-mobile-menu__toggle-icon i {
+        font-size: 32px;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-205d049 .jet-mobile-menu__toggle .jet-mobile-menu__toggle-icon svg {
+        width: 32px;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-205d049 .jet-mobile-menu__container {
+        width: 80%;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-205d049 .jet-mobile-menu__item .jet-menu-label {
+        font-size: 16px;
+        line-height: 1.64em;
+        letter-spacing: 0px;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-205d049 > .elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-205d049 {
+        z-index: 15;
+    }
+
+    .elementor-106 .elementor-element.elementor-element-a2c1252 {
+        padding: 30px 0px 30px 0px;
+    }
+}
+
+.elementor-39 .elementor-element.elementor-element-df3f76a > .elementor-container {
+    max-width: 1200px;
+}
+
+.elementor-39 .elementor-element.elementor-element-546c3f3 .elementor-element-populated a:hover {
+    color: #000000;
+}
+
+.elementor-39 .elementor-element.elementor-element-546c3f3 > .elementor-element-populated {
+    padding: 0px 015px 0px 015px;
+}
+
+.elementor-39 .elementor-element.elementor-element-a762634 {
+    color: #939398;
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.75em;
+}
+
+.elementor-39 .elementor-element.elementor-element-a762634 > .elementor-widget-container {
+    margin: 10px 0px -5px 0px;
+}
+
+.elementor-39 .elementor-element.elementor-element-a762634 > .tippy-popper .tippy-tooltip .tippy-content {
+    text-align: center;
+}
+
+.elementor-39 .elementor-element.elementor-element-df3f76a:not(.elementor-motion-effects-element-type-background), .elementor-39 .elementor-element.elementor-element-df3f76a > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #F3F3F9;
+}
+
+.elementor-39 .elementor-element.elementor-element-df3f76a {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-39 .elementor-element.elementor-element-df3f76a > .elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+@media (max-width: 767px) {
+    .elementor-39 .elementor-element.elementor-element-a762634 .elementor-text-editor {
+        text-align: center;
+    }
 }
